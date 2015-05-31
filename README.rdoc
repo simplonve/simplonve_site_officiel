@@ -1,9 +1,18 @@
-Lancement d'un projet pour la promo #1 de SimplonVE
+# Site officiel de Simplon.ve
 
-Que celles et ceux qui ont envie d'y participer se sentent les bienvenu(e)s !
+Ce projet est entièrement réalisé par la promo#1 de SimplonVE.
 
-Il s'agit donc de créer notre site, à savoir au moins une page de présentation qui pourrait contenir des infos sur cette promo: les "Zar'Dev", le lieu, la méthode ,...etc.
+Que les ZarDev qui ont envie d'y participer se sentent les bienvenu(e)s !
 
-L'idée de Romain, de faire la photo du lab'z hack qui serait le fond d'écran, est plutôt bien, à voir donc ....
+Nous allons donc créer notre site, 
+
+Commencons par une page de présentation qui pourrait contenir un petit paragraphe sur cette promo: 
+  - les "Zar'Dev"
+  - le lieu
+  - la méthode
+
+L'idée de faire des photo du Lab'z Hack serait le fond d'écran perttrait de partir d'une photo pour construire le site
 
 Au boulot ;-)
+
+
