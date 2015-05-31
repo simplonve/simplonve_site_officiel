@@ -11,6 +11,6 @@ Commençons par une page de présentation qui pourrait contenir un petit paragra
   - le lieu
   - la méthode
 
-L'idée de faire des photo du Lab'z Hack serait le fond d'écran permettrait de partir d'une photo pour construire le site
+L'idée des photos du Lab'z Hack en fond d'écran permettrait de démarrer la construction du site.
 
 Au boulot ;-)
