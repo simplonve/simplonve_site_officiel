@@ -1,0 +1,116 @@
+<div class="background"></div>
+<div class="container">
+<h1 class="text-center">Réservez la date de votre intervention à Simplon.VE</h1>
+  <% @month.each do |key,list| %>
+    <div class="row">  
+          
+      <div class="nom_mois">
+        <%= list[0] %>
+      </div>
+      
+      <div class="calendrier">
+        <div class="mois">
+    
+          <% a = 1; b = 1; c = 1 %>
+
+          <div class="nom_jour">
+            <% @day.each do |day| %>
+              <div class="jour">
+                <%= day %>
+              </div>
+            <% end %>
+          </div>
+
+          <% while a < list[3] %>
+            <% if b == 1 %>
+              <div class="semaine">
+            <% end %>
+            <div class="jour">
+            </div>
+            <% a += 1; b += 1 %>
+          <% end %>
+
+      
+          <% while c <= list[2] %>
+            
+            <% if b == 1 || b % 7 == 1 %>
+              <div class="semaine">
+            <% end %>
+        
+            <% l = sprintf '%02d', c %>
+            <% @date = [] %>
+            <% @intervenant.each do |idate| %>
+                <% @date << idate.date.strftime("%d-%m") %>
+            <% end %>
+            
+            <% if @date.include?("#{l}-#{key}") %>
+                <div class="jour indispo">
+                  <%= c %>
+                </div>
+            <% elsif key == "08" && c < 17 %>
+                <div class="jour weekend">
+                  <%= c %>
+                </div>
+            <% elsif b % 7 == 6 %>
+                <div class="jour weekend">
+                  <a href="/intervenants/reservation/<%= l %>-<%= key %>">
+                    <%= c %>
+                  </a>
+                </div>
+            <% elsif b % 7 == 0 %>
+                 <div class="jour weekend">
+                  <%= c %>
+                </div>
+            <% else %>
+              <div class="jour dispo">
+                <a href="/intervenants/reservation/<%= l %>-<%= key %>">
+                  <%= c %>
+                </a>
+              </div>
+            <% end %>
+            
+            <% if b % 7 == 0 %>
+              </div>
+            <% end %>
+            
+            <% b += 1; c += 1 %>
+          
+          <% end %>
+
+          <% while b % 7 != 1 %>
+            <div class="jour">
+              
+            </div>
+            <% b += 1 %>
+          <% end %>
+    
+          </div>
+        </div>
+      </div>
+
+      <div class="texte">
+        <% @intervenant.each do |i| %>
+          <% if i.date.strftime("%B") == list[1] %>
+            <div class="info">
+              <div class="date">
+                <%= i.date.strftime("%e %B %Y").gsub(list[1], list[0]) %>: 
+              </div>
+              <div class="nom">
+                <%= i.nom %>
+                <%= i.prenom %>
+              </div>
+              <div class="contact">
+                Email: <%= i.email %>, 
+                Tel: <%= i.telephone %>
+              </div>
+              <div class="desc">
+                <%= i.description %>
+              </div>
+            </div>
+          <% end %>
+        <% end %>
+      </div>
+
+    </div>
+  <% end %>
+</div>

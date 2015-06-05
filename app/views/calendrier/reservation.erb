@@ -1,0 +1,86 @@
+<div class="container-fluid resa-background">
+
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<h1 class="text-center">Formulaire Intervenant</h1>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<form method="post" action="/intervenants/reservation" id="form_resa">
+			<div class="row">
+				<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 input--resa">
+					<input type="text" class="input__field input__field--resa" name="resa[nom]" autocomplete="off">
+					<label class="input__label input__label--resa">
+						<span class="input__label-content input__label-content--resa">Nom</span>
+					</label>
+					<svg class="graphic graphic--resa" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+						<path d="M0,58.0c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+						<path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"/>
+					</svg>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 input--resa">
+					<input type="text" class="input__field input__field--resa" name="resa[prenom]" autocomplete="off">
+					<label class="input__label input__label--resa">
+						<span class="input__label-content input__label-content--resa">Prénom</span>
+					</label>
+					<svg class="graphic graphic--resa" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+						<path d="M0,58.0c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+						<path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"/>
+					</svg>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 input--resa">
+					<input type="text" class="input__field input__field--resa" name="resa[email]" autocomplete="off">
+					<label class="input__label input__label--resa">
+						<span class="input__label-content input__label-content--resa">E-mail</span>
+					</label>
+					<svg class="graphic graphic--resa" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+						<path d="M0,58.0c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+						<path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"/>
+					</svg>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 input--resa">
+					<input type="text" class="input__field input__field--resa" name="resa[telephone]" autocomplete="off">
+					<label class="input__label input__label--resa">
+						<span class="input__label-content input__label-content--resa">Téléphone</span>
+					</label>
+					<svg class="graphic graphic--resa" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+						<path d="M0,58.0c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+						<path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"/>
+					</svg>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 input--resa">
+					<input readonly type="date" class="input__field input__field--resa date" name="resa[date]" value="<%= @date %>" autocomplete="off">
+					<label class="input__label input__label--resa">
+						<span class="input__label-content input__label-content--resa">Date Réservée</span>
+					</label>
+					<svg class="graphic graphic--resa" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+						<path d="M0,58.0c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+						<path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"/>
+					</svg>
+				</div>
+			</div>
+			<div class="row space-textarea">
+				<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 input--resa">
+					<textarea class="textarea" name="description"></textarea>
+					<label class="textarea__label textarea__label--resa">
+						<span class="textarea__label-content textarea__label-content--resa">Domaine d'activité</span>
+					</label>
+					<svg class="graphic graphic2--resa" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+						<path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+						<path d="M0,1.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"/>
+					</svg>
+				</div>
+			</div>
+			<div class="form-button">
+				<a class="resa-btn-cancel" href="/intervenants">Annuler</a>
+				<a class="resa-btn-valid" id="resa-submit" onclick="document.getElementById('form_resa').submit(); document.getElementById('resa-submit').removeAttribute('onclick');">Valider</a>
+			</div>
+		</form>
+	</div>
+</div>

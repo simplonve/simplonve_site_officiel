@@ -1,0 +1,288 @@
+@font-face {
+    font-family: 'museo';
+    src: url('museo/Museo500-Regular-webfont.eot');
+    src: url('museo/Museo500-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('museo/Museo500-Regular-webfont.woff2') format('woff2'),
+         url('museo/Museo500-Regular-webfont.woff') format('woff'),
+         url('museo/Museo500-Regular-webfont.ttf') format('truetype'),
+         url('museo/Museo500-Regular-webfont.svg#museo500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (max-width: 475px) {
+	.calendrier {
+	  width: 98%;
+	  float: left;
+	  justify-content: space-around;
+	}
+
+	.texte {
+	  display: flex;
+	  flex-direction: column;
+	  position: relative;
+	  width: 98%;
+	  height: 300px;
+	  float: left;
+	  margin-top: 10%;
+	  overflow: auto;
+	  color: rgba(236, 240, 241,1.0);
+	}
+
+	.nom_jour .jour {
+	  width: 100%;
+	  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	  font-size: 0.75em;
+	}
+}
+
+@media screen and (min-width: 475px) and (max-width: 550px) {
+	.calendrier {
+	  width: 98%;
+	  float: left;
+	  justify-content: space-around;
+	}
+
+	.texte {
+	  display: flex;
+	  flex-direction: column;
+	  position: relative;
+	  width: 98%;
+	  height: 300px;
+	  float: left;
+	  margin-top: 10%;
+	  overflow: auto;
+	  color: rgba(236, 240, 241,1.0);
+	}
+
+	.nom_jour .jour {
+	  width: 100%;
+	  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	  font-size: 0.85em;
+	}
+}
+
+@media screen and (min-width: 550px) and (max-width: 768px) {
+	.calendrier {
+	  width: 98%;
+	  float: left;
+	  justify-content: space-around;
+	}
+
+	.texte {
+	  display: flex;
+	  flex-direction: column;
+	  position: relative;
+	  width: 98%;
+	  height: 300px;
+	  float: left;
+	  margin-top: 10%;
+	  overflow: auto;
+	  color: rgba(236, 240, 241,1.0);
+	}
+
+	.nom_jour .jour {
+	  width: 100%;
+	  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	  font-size: 1em;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+	.nom_jour .jour {
+	  width: 100%;
+	  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	  font-size: 0.75em;
+	}
+
+	.calendrier {
+	  width: 48%;
+	  float: left;
+	  justify-content: space-around;
+	}
+
+	.texte {
+	  display: flex;
+	  flex-direction: column;
+	  position: relative;
+	  width: 48%;
+	  height: 300px;
+	  float: left;
+	  overflow: auto;
+	  color: rgba(236, 240, 241,1.0);
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.nom_jour .jour {
+	  width: 100%;
+	  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	  font-size: 1em;
+	}
+
+	.calendrier {
+	  width: 48%;
+	  float: left;
+	  justify-content: space-around;
+	}
+
+	.texte {
+	  display: flex;
+	  flex-direction: column;
+	  position: relative;
+	  width: 48%;
+	  height: 300px;
+	  float: left;
+	  overflow: auto;
+	  color: rgba(236, 240, 241,1.0);
+	}
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+.background {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	background-image: url('gradient-background.jpg');
+	background-size: cover;
+}
+
+.container {
+	display: block;
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 100%;
+	padding: 5%;
+	padding-top: 2%;
+	overflow: auto;
+}
+.mois {
+	float:left;
+	text-align: center;
+	width: 100%;
+	
+}
+
+.nom_mois {
+	color: rgba(236, 240, 241,1.0);
+	font-size: 2.5em;
+	margin-bottom: 0.5em;
+	margin-top: 5%;
+	text-align: center;
+	width: 100%;
+
+}
+
+.semaine {
+	display:flex;
+	float:left;
+	justify-content :space-around;
+	width:100%;
+}
+
+.semaine a{
+	width: 100%;
+	line-height: 50px;
+	color: white;
+	text-decoration: none;
+}
+
+.nom_jour{
+	display:flex;
+	float:left;
+	justify-content :space-around;
+	width:100%;
+	border-top: solid 2px rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.25);
+	box-shadow: 0 4px 2px -2px rgba(0,0,0,0.5);
+	margin-bottom: 5px;
+}
+
+.jour {
+	border:0.15em;
+	display:flex;
+	align-content: space-around;
+	width: 10%;
+	height: 50px;
+	justify-content: center;
+	align-items:center;
+	color: white;
+	font-weight: bold;
+	font-family: 'museo';
+	font-size: 1.25em; 
+}
+
+.dispo:hover {
+	background-color: rgba(255,255,255,0.1);
+}
+
+.info {
+	display: block;
+	float: left;
+	width: 100%;
+	margin-bottom: 2%;
+}
+
+.date {
+	float: left;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-right: 1%;
+}
+
+.nom {
+	float: left;
+}
+
+.contact {
+	width: 100%;
+	float: left;
+}
+
+.desc {
+	width: 100%;
+	float: left;
+	font-size: 0.9em;
+  	text-align: justify;
+  	margin-top: 0.5%
+}
+
+.container .row:nth-child(even) .calendrier{
+	float: left;
+	margin-right: 2%;
+}
+.container .row:nth-child(even) .texte{
+	float: left;
+	margin-left: 2%;
+}
+
+.container .row:nth-child(odd) .calendrier{
+	float: right;
+	margin-left: 2%;
+}
+
+.container .row:nth-child(odd) .texte {
+	float: right;
+	margin-right: 2%;
+}
+
+.weekend {
+	border-bottom: solid 3px rgba(44, 62, 80,1.0);
+}
+
+.indispo {
+	border-bottom: solid 3px rgba(231, 76, 60,1.0);
+}
+
+.dispo {
+	border-bottom: solid 3px rgba(46, 204, 113,1.0);
+}
