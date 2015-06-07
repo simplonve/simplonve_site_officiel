@@ -34,6 +34,8 @@ group :development, :test do
   # Inserer 'binding.pry' dans contre controller / model ou vue et lancez une page qui "passe" par la ligne binding.pry
   # dans votre navigateur.
   gem 'pry'
+  # Cette gem évite de voir le chargement des assets dans les logs serveur, elle facilite la lecture des logs
+  gem 'rails-clean-logs'
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
