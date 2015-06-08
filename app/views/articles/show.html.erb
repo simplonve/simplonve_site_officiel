@@ -1,9 +1,9 @@
 <div class="article">
-	<div class='info'>
+	<div class='info_blog'>
 		<div class="day">
       	 <%= @article.day %>
      	</div>
-    	<div class='date'>
+    	<div class='date_blog'>
    			<div class="month">
        			<%= @article.month %>
      		</div>
@@ -43,13 +43,13 @@
 		</tr>
 		<% @article.comments.each do |comment| %>
 			<tr>
-				<td class="nom"><%= comment.name %></td>
+				<td class="nom_blog"><%= comment.name %></td>
 				<td ><%= comment.body %></td>
 			</tr>
 		<% end %>
 	</table>	
     <%= link_to (image_tag('home.png')), articles_path, :class => "home" %>
-    <div class='icon'>
+    <div class='icon_blog'>
 		<%= link_to (image_tag('edit.png')), edit_article_path(@article) %>
 		<%= link_to (image_tag('delete.png')), article_path(@article),
 	              method: :delete,
