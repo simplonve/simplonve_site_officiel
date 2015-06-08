@@ -46,4 +46,5 @@ group :development, :test do
   gem 'rails-clean-logs'
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'factory_girl'
 end
