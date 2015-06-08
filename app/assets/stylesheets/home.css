@@ -3,6 +3,9 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+}
+
+body {
 	padding-top: 40px;
 }
 
@@ -16,6 +19,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 	background-color: rgba(0,0,0,0.75);
+	z-index: 9999;
 }
 
 .navigationve-link {
@@ -26,14 +30,15 @@ html, body {
 }
 
 .navigationve-link a {
+	display: block;
 	width: 100%;
 	line-height: 40px;
-	display: block;
 	text-align: center;
 	font-size: 1.25em;
 	text-transform: capitalize;
 	font-weight: bold;
 	color: rgba(255,255,255,1.0);
+	border: none;
 }
 
 .navigationve-link a:hover {

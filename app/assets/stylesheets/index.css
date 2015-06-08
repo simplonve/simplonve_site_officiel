@@ -11,13 +11,13 @@
 }
 
 @media screen and (max-width: 475px) {
-	.calendrier {
+	.resa-calendrier {
 	  width: 98%;
 	  float: left;
 	  justify-content: space-around;
 	}
 
-	.texte {
+	.resa-texte {
 	  display: flex;
 	  flex-direction: column;
 	  position: relative;
@@ -29,7 +29,7 @@
 	  color: rgba(236, 240, 241,1.0);
 	}
 
-	.nom_jour .jour {
+	.resa-nom_jour .resa-jour {
 	  width: 100%;
 	  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	  font-size: 0.75em;
@@ -37,13 +37,13 @@
 }
 
 @media screen and (min-width: 475px) and (max-width: 550px) {
-	.calendrier {
+	.resa-calendrier {
 	  width: 98%;
 	  float: left;
 	  justify-content: space-around;
 	}
 
-	.texte {
+	.resa-texte {
 	  display: flex;
 	  flex-direction: column;
 	  position: relative;
@@ -55,7 +55,7 @@
 	  color: rgba(236, 240, 241,1.0);
 	}
 
-	.nom_jour .jour {
+	.resa-nom_jour .resa-jour {
 	  width: 100%;
 	  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	  font-size: 0.85em;
@@ -63,13 +63,13 @@
 }
 
 @media screen and (min-width: 550px) and (max-width: 768px) {
-	.calendrier {
+	.resa-calendrier {
 	  width: 98%;
 	  float: left;
 	  justify-content: space-around;
 	}
 
-	.texte {
+	.resa-texte {
 	  display: flex;
 	  flex-direction: column;
 	  position: relative;
@@ -81,7 +81,7 @@
 	  color: rgba(236, 240, 241,1.0);
 	}
 
-	.nom_jour .jour {
+	.resa-nom_jour .resa-jour {
 	  width: 100%;
 	  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	  font-size: 1em;
@@ -89,19 +89,19 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
-	.nom_jour .jour {
+	.resa-nom_jour .resa-jour {
 	  width: 100%;
 	  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	  font-size: 0.75em;
 	}
 
-	.calendrier {
+	.resa-calendrier {
 	  width: 48%;
 	  float: left;
 	  justify-content: space-around;
 	}
 
-	.texte {
+	.resa-texte {
 	  display: flex;
 	  flex-direction: column;
 	  position: relative;
@@ -114,19 +114,19 @@
 }
 
 @media screen and (min-width: 1024px) {
-	.nom_jour .jour {
+	.resa-nom_jour .resa-jour {
 	  width: 100%;
 	  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	  font-size: 1em;
 	}
 
-	.calendrier {
+	.resa-calendrier {
 	  width: 48%;
 	  float: left;
 	  justify-content: space-around;
 	}
 
-	.texte {
+	.resa-texte {
 	  display: flex;
 	  flex-direction: column;
 	  position: relative;
@@ -142,7 +142,7 @@ html, body {
 	width: 100%;
 	height: 100%;
 }
-.background {
+.resa-background {
 	display: block;
 	position: absolute;
 	top: 0;
@@ -151,11 +151,11 @@ html, body {
 	right: 0;
 	margin: 0;
 	padding: 0;
-	background-image: url('gradient-background.jpg');
+	background-image: url(gradient-background.jpg);
 	background-size: cover;
 }
 
-.container {
+.resa-container {
 	display: block;
 	position: relative;
 	float: left;
@@ -165,14 +165,14 @@ html, body {
 	padding-top: 2%;
 	overflow: auto;
 }
-.mois {
+.resa-mois {
 	float:left;
 	text-align: center;
 	width: 100%;
 	
 }
 
-.nom_mois {
+.resa-nom_mois {
 	color: rgba(236, 240, 241,1.0);
 	font-size: 2.5em;
 	margin-bottom: 0.5em;
@@ -182,21 +182,21 @@ html, body {
 
 }
 
-.semaine {
+.resa-semaine {
 	display:flex;
 	float:left;
 	justify-content :space-around;
 	width:100%;
 }
 
-.semaine a{
+.resa-semaine a{
 	width: 100%;
 	line-height: 50px;
 	color: white;
 	text-decoration: none;
 }
 
-.nom_jour{
+.resa-nom_jour{
 	display:flex;
 	float:left;
 	justify-content :space-around;
@@ -207,7 +207,7 @@ html, body {
 	margin-bottom: 5px;
 }
 
-.jour {
+.resa-jour {
 	border:0.15em;
 	display:flex;
 	align-content: space-around;
@@ -221,34 +221,34 @@ html, body {
 	font-size: 1.25em; 
 }
 
-.dispo:hover {
+.resa-dispo:hover {
 	background-color: rgba(255,255,255,0.1);
 }
 
-.info {
+.resa-info {
 	display: block;
 	float: left;
 	width: 100%;
 	margin-bottom: 2%;
 }
 
-.date {
+.resa-date {
 	float: left;
 	font-weight: bold;
 	text-decoration: underline;
 	margin-right: 1%;
 }
 
-.nom {
+.resa-nom {
 	float: left;
 }
 
-.contact {
+.resa-contact {
 	width: 100%;
 	float: left;
 }
 
-.desc {
+.resa-desc {
 	width: 100%;
 	float: left;
 	font-size: 0.9em;
@@ -256,33 +256,33 @@ html, body {
   	margin-top: 0.5%
 }
 
-.container .row:nth-child(even) .calendrier{
+.resa-container .row:nth-child(even) .resa-calendrier{
 	float: left;
 	margin-right: 2%;
 }
-.container .row:nth-child(even) .texte{
+.resa-container .row:nth-child(even) .resa-texte{
 	float: left;
 	margin-left: 2%;
 }
 
-.container .row:nth-child(odd) .calendrier{
+.resa-container .row:nth-child(odd) .resa-calendrier{
 	float: right;
 	margin-left: 2%;
 }
 
-.container .row:nth-child(odd) .texte {
+.resa-container .row:nth-child(odd) .resa-texte {
 	float: right;
 	margin-right: 2%;
 }
 
-.weekend {
+.resa-weekend {
 	border-bottom: solid 3px rgba(44, 62, 80,1.0);
 }
 
-.indispo {
+.resa-indispo {
 	border-bottom: solid 3px rgba(231, 76, 60,1.0);
 }
 
-.dispo {
+.resa-dispo {
 	border-bottom: solid 3px rgba(46, 204, 113,1.0);
 }
