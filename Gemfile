@@ -47,4 +47,6 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
   gem 'spring'
   gem 'factory_girl'
+  # Lancez la commande '$ rubocop' dans le terminal et rubocop corrige les erreurs de syntaxe légères
+  gem 'rubocop', require: false
 end
