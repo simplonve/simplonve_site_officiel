@@ -7,6 +7,6 @@ Rails.application.routes.draw do
   #Projet Réservation-Intervenants
   get '/intervenants' => 'calendrier#show'
   get '/intervenants/reservation/:day-:month' => 'calendrier#reservation'
-  post '/intervenants/reservation' => 'calendrier#ajouter'
+  post '/intervenants/reservation' => 'calendrier#create'
 
 end
