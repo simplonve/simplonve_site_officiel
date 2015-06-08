@@ -3,6 +3,12 @@ Rails.application.routes.draw do
 
   get 'home/index' => 'home#index'
 
+  #Projet Blog
+  resources :articles do
+    resources :comments
+  end 
+  mount Ckeditor::Engine => '/ckeditor'
+
 
   #Projet Réservation-Intervenants
   get '/intervenants' => 'calendrier#show'

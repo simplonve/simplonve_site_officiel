@@ -1,0 +1,58 @@
+<div class="article">
+	<div class='info'>
+		<div class="day">
+      	 <%= @article.day %>
+     	</div>
+    	<div class='date'>
+   			<div class="month">
+       			<%= @article.month %>
+     		</div>
+    		<div class="year">
+       			<%= @article.year %>
+    		</div>
+    	</div>            
+		<p class="title">
+	 		<%= @article.title %>
+		</p>
+	</div>	 
+	<p class="subtitle">
+	  <%= @article.subtitle %>
+	</p>
+	<div class="content">
+	  <%= @article.content.html_safe %>
+	</div>
+	<div class="comment_form">
+	<h5>Ajouter un commentaire : </h5>
+		<%= form_for ([@article, @article.comments.build]) do |f| %>
+			<p>
+			    <%= f.label :nom %><br>
+			    <%= f.text_field :name %>
+			</p>
+			<p>
+			    <%= f.label :commentaire %><br>
+			    <%= f.text_area :body, :class => "text_field" %>
+			</p>
+			<%= f.submit 'Envoyer le commentaire', class: "submit_btn" %>
+		<% end %>
+	</div>
+	<table class="comment_list">	 
+		<th>Commentaires</th>
+		<tr>
+			<td>Nom</td>
+			<td>Commentaires</td>
+		</tr>
+		<% @article.comments.each do |comment| %>
+			<tr>
+				<td class="nom"><%= comment.name %></td>
+				<td ><%= comment.body %></td>
+			</tr>
+		<% end %>
+	</table>	
+    <%= link_to (image_tag('home.png')), articles_path, :class => "home" %>
+    <div class='icon'>
+		<%= link_to (image_tag('edit.png')), edit_article_path(@article) %>
+		<%= link_to (image_tag('delete.png')), article_path(@article),
+	              method: :delete,
+	              data: { confirm: 'Etes-vous sûr ?' } %>
+	</div>              
+</div>

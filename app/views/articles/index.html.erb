@@ -1,0 +1,53 @@
+<div class="visual">
+  <img src="/assets/fondmaster.png" alt="fondmaster" />
+</div>
+<div class="bandeau">
+  <div class="logocinema">
+    <img src="/assets/bannierefestivalcinemablanc.svg" class="img-responsive" width="100%" alt="logofest" title="logofest" />
+  </div>
+</div>
+<div class="nav">
+  <ul>  
+    <li><%= link_to "nouvel article", new_article_path %></li>
+    <li><a href="http://festivalducinemalibre.com" target="_blank">fcl</a></li>
+  </ul>
+</div>
+<article class="container">
+  <div class="catch">
+      <div class="catchnumber">3ème édition
+      </div>
+      <div class="catchplace">HAMBOURG
+      </div>
+      <div class="catchdate">28-30 Août 2015
+      </div>
+    </div>
+  <% @articles.reverse.each do |article| %>
+    <div class="article">
+      <div class="info">
+        <div class="day">
+            <%= article.day %>
+        </div>
+        <div class="date">
+          <div class="month">
+              <%= article.month %>
+          </div>
+           <div class="year">
+              <%= article.year %>
+          </div>
+        </div>             
+        <h1 class="title">
+          <%= article.title %>
+        </h1>
+      </div> 
+      <h3 class="subtitle">
+        <%= article.subtitle %>
+      </h3>
+      <div class="content">
+        <%= article.content.html_safe %>
+      </div>
+      <div class="button">
+        <%= link_to (image_tag('croix.svg')),article_path(article) %>
+      </div>
+    </div>
+  <% end %>
+</article>
