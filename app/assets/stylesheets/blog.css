@@ -32,7 +32,7 @@
 		min-width: 60px;
 		font-size: 4em;
 		}
-		.date {
+		.date_blog {
 		height: 80px;
 		min-height: 60px;
 		min-width: 100px;
@@ -44,7 +44,7 @@
 		.year {
 		font-size: 3em;
 		}
-		.nav{
+		.nav_blog{
 			height: 30px;
 		}
 		.form{
@@ -78,7 +78,7 @@
 		min-width: 50px;
 		font-size: 3em;
 		}
-		.date {
+		.date_blog {
 		height: 70px; 
 		min-height: 50px;
 		min-width: 70px;
@@ -90,7 +90,7 @@
 		.year {
 		font-size: 2.4em;
 		}
-		.nav{
+		.nav_blog{
 			height: 30px;
 		}
 		.form{
@@ -122,7 +122,7 @@
 		min-width: 40px;
 		font-size: 2.5em;
 		}
-		.date {
+		.date_blog {
 		height: 60px;	
 		min-height: 40px;
 		min-width: 50px;
@@ -134,7 +134,7 @@
 		.year {
 		font-size: 2em;
 		}
-		.nav{
+		.nav_blog{
 			height: 30px;
 		}
 		.form{
@@ -165,7 +165,7 @@
 	min-width: 30px;
 	font-size: 2em;
 	}
-	.date {
+	.date_blog {
 	/*height: 50px;*/
 	min-height: 48px;
 	min-width: 40px;
@@ -215,7 +215,7 @@ html, body{
 	margin:0;
 	margin-top: 0%;
 }
-.nav{
+.nav_blog{
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -254,7 +254,7 @@ ul li a{
 	border-left: solid 2px white;
 	padding-left: 5%;
 }
-.container{
+.container_blog{
 	position: relative;
 	width: 100%;
 	/*margin: 0px;*/
@@ -271,7 +271,7 @@ ul li a{
 	box-shadow: 0px 0px 500px grey;
 	/*text-align: justify;*/
 }
-.info{
+.info_blog{
 	display: flex;
 	justify-content: flex-start ;
 	align-items: flex-start;
@@ -285,7 +285,7 @@ ul li a{
 	display:flex;
 	justify-content: center;
 }
-.date{
+.date_blog{
 	background-color: white;
 	font-family: 'Alice-Regular';
 	/*font-size: 200%;*/
@@ -405,7 +405,7 @@ ul li a{
 	margin-top: -10px;
 	justify-content: flex-end;
 }
-.icon{
+.icon_blog{
 	float: right;
 	padding-right: 2%;
 }
@@ -430,7 +430,7 @@ tr, td {
 	border: thin solid grey;
 	padding: 1%;
 }
-.nom{
+.nom_blog{
 	width:20%;
 }
 .ancre {

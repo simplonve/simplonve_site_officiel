@@ -6,13 +6,13 @@
     <img src="/assets/bannierefestivalcinemablanc.svg" class="img-responsive" width="100%" alt="logofest" title="logofest" />
   </div>
 </div>
-<div class="nav">
+<div class="nav_blog">
   <ul>  
     <li><%= link_to "nouvel article", new_article_path %></li>
     <li><a href="http://festivalducinemalibre.com" target="_blank">fcl</a></li>
   </ul>
 </div>
-<article class="container">
+<article class="container_blog">
   <div class="catch">
       <div class="catchnumber">3ème édition
       </div>
@@ -23,11 +23,11 @@
     </div>
   <% @articles.reverse.each do |article| %>
     <div class="article">
-      <div class="info">
+      <div class="info_blog">
         <div class="day">
             <%= article.day %>
         </div>
-        <div class="date">
+        <div class="date_blog">
           <div class="month">
               <%= article.month %>
           </div>
