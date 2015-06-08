@@ -9,20 +9,16 @@ class CalendrierController < ApplicationController
 		@date = "2015-#{params[:month]}-#{params[:day]}"
 	end
 
-	def ajouter
+	def create
 		params[:description] = params[:description].gsub(/[<>]/, '')
 		params[:resa]["description"] = params[:description]
 		@intervenant = Calendrier.new(reservation_params)
 		@intervenant.save
-		redirect_to "/intervenants"
+		redirect_to intervenants_path
 	end
 
 	private
 	  def reservation_params
-	    params.require(:resa).permit(:nom, :text)
-	    params.require(:resa).permit(:prenom, :text)
-	    params.require(:resa).permit(:email, :text)
-	    params.require(:resa).permit(:telephone, :text)
-	    params.require(:resa).permit(:date, :text)
+	    params.require(:resa).permit(:nom, :prenom, :email, :telephone, :date, :description)
 	  end
 end
