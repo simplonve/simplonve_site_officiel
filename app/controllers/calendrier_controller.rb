@@ -13,7 +13,6 @@ class CalendrierController < ApplicationController
 		params[:description] = params[:description].gsub(/[<>]/, '')
 		params[:resa]["description"] = params[:description]
 		@intervenant = Calendrier.new(reservation_params)
-		binding.pry
 		@intervenant.save
 		redirect_to intervenants_path
 	end
