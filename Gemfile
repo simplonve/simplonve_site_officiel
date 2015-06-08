@@ -9,6 +9,9 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'ckeditor'
+gem 'paperclip'
+gem 'therubyracer', platforms: :ruby
 
 group :production do
   # Postgre est le serveur de production herbergé sur Heroku
