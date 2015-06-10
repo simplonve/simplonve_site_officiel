@@ -6,7 +6,7 @@ Que les ZarDev qui ont envie d'y participer se sentent les bienvenu(e)s !
 
 Nous allons donc créer notre site, 
 
-Commençons par une page de présentation qui pourrait contenir un petit paragraphe sur cette promo: 
+Commençons par une page de présentation qui pourrait contenir un petit paragraphe sur cette promo : 
   - les "Zar'Dev"
   - le lieu
   - la méthode
@@ -14,3 +14,10 @@ Commençons par une page de présentation qui pourrait contenir un petit paragra
 L'idée des photos du Lab'z Hack en fond d'écran permettrait de démarrer la construction du site.
 
 Au boulot ;-)
+
+
+## Problème | Troubleshooting
+
+### Postgres en développement
+
+La gem 'pg' est nécéssaire pour mettre en production sur Heroku, dans le Gemfile elle est située à l'intérieur

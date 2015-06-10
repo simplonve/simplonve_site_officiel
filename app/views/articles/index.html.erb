@@ -6,8 +6,11 @@
     <img src="/assets/bannierefestivalcinemablanc.svg" class="img-responsive" width="100%" alt="logofest" title="logofest" />
   </div>
 </div>
+  <div class="label">
+    <%= flash[:notice] %>
+  </div>
 <div class="nav_blog">
-  <ul>  
+  <ul>
     <li><%= link_to "nouvel article", new_article_path %></li>
     <li><a href="http://festivalducinemalibre.com" target="_blank">fcl</a></li>
   </ul>
