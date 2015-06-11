@@ -1,36 +1,36 @@
 <div class="form">
 	<h1>Nouvel article</h1>
-	<% if @article.errors.any? %>
-        <div id="error_explanation">
-            <%= pluralize(@article.errors.count, "erreur") %> : Impossible de sauvegarder l'article, veuillez remplir tous les champs.
-        	<ul>
-			<% @article.errors.full_messages.each do |msg| %>
-          		<li><%= msg %></li>
-       		<% end %>
-       		</ul> 
-        </div>
-    <% end %>
+	  <% if @article.errors.any? %>
+      <div id="error_explanation">
+        <%= pluralize(@article.errors.count, "erreur") %> : Impossible de sauvegarder l'article, veuillez remplir tous les champs.
+      	<ul>
+    			<% @article.errors.full_messages.each do |msg| %>
+              <li><%= msg %></li>
+          <% end %>
+     		</ul> 
+      </div>
+  <% end %>
 	<%= form_for :article, url: articles_path  do |f| %>
-		   <p class="selecteur">
-		    <%= f.label :"jour" %>
-		    <%= f.select :day, (1..31).to_a %>
-		    <%= f.label :mois %>
-		    <%= f.select :month, ["janv", "févr", "mars", "avr", "mai", "juin", "juil", "août", "sept", "oct", "nov", "déc"] %>
-		    <%= f.label :année %>
-		    <%= f.select :year, ["2015", "2016", "2017"] %>
-		  </p> 
-		  <p>
-		    <%= f.label :titre %><br>
-		    <%= f.text_area :title, :class => "text_field" %>
-		  </p>
-		  <p>
-		    <%= f.label :"sous-titre" %><br>
-		    <%= f.text_area :subtitle, :class => "text_field" %>
-		  </p>
-		  <p>
-		    <%= f.label :texte %><br>
-		    <%= f.cktext_area :content %>
-		  </p>
-		    <%= f.submit 'Enregistrer le nouvel article', class: "submit_btn" %>
+    <p class="selecteur">
+    <%= f.label :"jour" %>
+    <%= f.select :day, (1..31).to_a %>
+    <%= f.label :mois %>
+    <%= f.select :month, ["janv", "févr", "mars", "avr", "mai", "juin", "juil", "août", "sept", "oct", "nov", "déc"] %>
+    <%= f.label :année %>
+    <%= f.select :year, ["2015", "2016", "2017"] %>
+    </p> 
+    <p>
+    <%= f.label :titre %><br>
+    <%= f.text_area :title, :class => "text_field" %>
+    </p>
+    <p>
+    <%= f.label :"sous-titre" %><br>
+    <%= f.text_area :subtitle, :class => "text_field" %>
+    </p>
+    <p>
+    <%= f.label :texte %><br>
+    <%= f.cktext_area :content %>
+    </p>
+    <%= f.submit 'Enregistrer le nouvel article', class: "submit_btn" %>
 	<% end %>
 </div>
