@@ -8,14 +8,8 @@
   <meta name="viewport" content="width=device-width"> 
 </head>
 <body>
-<ul class="navigationve">
-	<li class="navigationve-link"><%= link_to 'Accueil', root_path %></li>
-	<li class="navigationve-link"><%= link_to 'Blog', articles_path %></li>
-	<li class="navigationve-link"><%= link_to 'Intervenants', intervenants_path %></li>
-</ul>
-
-
-<%= yield %>
-
+  <%= render "layouts/nav" %>
+  <%= yield %>
+  <%= render "layouts/footer" %>
 </body>
 </html>
