@@ -1,0 +1,28 @@
+.layout_nav {
+	margin: 0;
+	min-width: 103px;
+	width: 15%;
+	height: 100%;
+	background-color: #00518A;
+	opacity: 0.75;
+	padding: 1%;
+	position: fixed;
+}
+
+.link_nav {
+	color: white;
+	display: block;
+	font-size: 1.2em;
+	line-height: 2.5;
+}
+
+.link_nav:hover {
+	color: #7D9E41;
+	text-decoration: none;
+}
+
+.relative_nav {
+	position: absolute;
+	top: 0;
+	left: 15%;
+}
