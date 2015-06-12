@@ -1,6 +1,6 @@
 .layout_nav {
 	margin: 0;
-	min-width: 103px;
+	min-width: 140px;
 	width: 15%;
 	height: 100%;
 	background-color: #00518A;
@@ -10,6 +10,7 @@
 }
 
 .link_nav {
+	text-decoration: none;
 	color: white;
 	display: block;
 	font-size: 1.2em;
@@ -22,7 +23,7 @@
 }
 
 .relative_nav {
-	position: absolute;
-	top: 0;
-	left: 15%;
+	width: 85%;
+	float: right;
+	text-align: center;
 }
