@@ -1,0 +1,31 @@
+footer {
+	background-color: #404040;
+	display: block;
+	position: absolute;
+	float: left;
+	width: 100%;
+	bottom: 0;
+
+}
+
+
+.reseaux_sociaux {
+	margin-left: 75%;
+	display: block;
+	background-color: #404040;
+	
+
+}
+
+.simplonco {
+	margin-left: 5%;
+}
+
+.mail {
+
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #FFFFFF;
+	margin-left: 75%;
+	display: block;
+	
+}
