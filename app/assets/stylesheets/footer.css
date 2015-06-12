@@ -1,15 +1,20 @@
 footer {
-	background-color: #404040;
-	display: block;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	align-items:center;
+	align-content: space-around;
+	background-color: #407ca7;
 	position: relative;
 	float: left;
-	width: 100%;
 	height: 200px;
 	bottom: 0;
 }
 
 
-.reseaux_sociaux {
+/*.reseaux_sociaux {
 	margin-left: 75%;
 	display: block;
 	background-color: #404040;
@@ -26,4 +31,4 @@ footer {
 	margin-left: 75%;
 	display: block;
 	font-size: 1em;
-}
+}*/
