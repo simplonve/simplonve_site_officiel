@@ -277,3 +277,25 @@ html, body {
 .resa-dispo {
 	border-bottom: solid 3px rgba(46, 204, 113,1.0);
 }
+
+
+.intro1{
+	font-family: 'roboto';
+	font-size:1.3em;
+	text-align: justify;
+	color:#407ca7;
+	width :60%;
+	margin-left: 21%;
+	padding-bottom:1.5em;
+	
+}
+
+.intro2{
+	font-family: roboto;
+	font-size:1.3em;
+	text-align: justify;
+	color:#407ca7;
+	width :60%;
+	margin-left: 21%;
+	margin-bottom: 5%;
+}
