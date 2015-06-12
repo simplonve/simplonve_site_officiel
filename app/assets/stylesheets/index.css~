@@ -279,26 +279,27 @@ html, body {
 }
 
 
-.intro1 {
+.intro1{
 	font-family: 'museo';
-	font-size:1.5em;
-	background-color: rgba(236, 240, 241,0.4);
-	color:black;
-	width: 50%;	
+	font-size:2em;
+	/*text-align: justify;*/
+	color:red;
+	width: 50%;
+  	/*margin-left: 25%;*/	
 	padding-bottom:1em;
 	max-width: 900px;
     margin: auto;
-    margin-top: 2em;
     min-width: 320px;
 	
 }
 
-.intro2 {
+.intro2{
 	font-family: 'museo';
-	font-size:1.5em;
-	background-color: rgba(236, 240, 241,0.4);
-	color:black;
+	font-size:2em;
+	/*text-align: justify;*/
+	color:red;
 	width: 50%;
+  	/*margin-left: 25%;*/
 	max-width: 900px;
     margin: auto;
     min-width: 320px;
