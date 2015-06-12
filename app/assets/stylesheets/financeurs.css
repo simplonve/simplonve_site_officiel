@@ -3,6 +3,7 @@
 	float: left;
 	width: 100%;
 	flex-wrap: wrap;
+	padding-top: 20px
 }
 
 .logo{

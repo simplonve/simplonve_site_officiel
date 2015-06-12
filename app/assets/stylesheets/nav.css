@@ -7,6 +7,7 @@
 	opacity: 0.75;
 	padding: 1%;
 	position: fixed;
+	z-index: 9999;
 }
 
 .link_nav {
@@ -22,9 +23,9 @@
 	text-decoration: none;
 }
 
-.relative_nav {
-	width: 85%;
-	min-height: calc(100% - 250px);
-	float: right;
+.main-content {
+	width: 100%;
+	min-height: calc(100% - 200px);
+	float: left;
 	text-align: center;
 }
