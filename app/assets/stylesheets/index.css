@@ -280,22 +280,27 @@ html, body {
 
 
 .intro1{
-	font-family: 'roboto';
+	font-family: 'museo';
 	font-size:1.3em;
-	text-align: justify;
+	/*text-align: justify;*/
 	color:#407ca7;
-	width :60%;
-	margin-left: 21%;
-	padding-bottom:1.5em;
+	width: 50%;
+  	/*margin-left: 25%;*/
+	padding-bottom:1em;
+	max-width: 900px;
+    margin: auto;
+    min-width: 320px;
 	
 }
 
 .intro2{
-	font-family: roboto;
+	font-family: 'museo';
 	font-size:1.3em;
-	text-align: justify;
+	/*text-align: justify;*/
 	color:#407ca7;
-	width :60%;
-	margin-left: 21%;
-	margin-bottom: 5%;
+	width: 50%;
+  	/*margin-left: 25%;*/
+	max-width: 900px;
+    margin: auto;
+    min-width: 320px;
 }
