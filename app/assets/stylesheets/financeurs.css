@@ -1,13 +1,13 @@
 .container_logo{
 	display: flex;
 	float: left;
-	width: 150%;
+	width: 100%;
 	flex-wrap: wrap;
 }
 
 .logo{
 	display: flex;
-	width: 150%;
+	width: 100%;
 	flex-wrap: wrap;
 	justify-content:space-around;
 	align-items:center;
