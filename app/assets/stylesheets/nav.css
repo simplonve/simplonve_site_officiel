@@ -1,13 +1,15 @@
 .layout_nav {
-	margin: 0;
-	min-width: 140px;
-	width: 15%;
+	margin: 0 0 0 -140px;
+	width: 150px;
 	height: 100%;
 	background-color: #00518A;
 	opacity: 0.75;
 	padding: 1%;
 	position: fixed;
 	z-index: 9999;
+}
+.layout_nav:hover{
+	margin:0;
 }
 
 .link_nav {
