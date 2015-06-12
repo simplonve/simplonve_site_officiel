@@ -1,11 +1,11 @@
 footer {
 	background-color: #404040;
 	display: block;
-	position: absolute;
+	position: relative;
 	float: left;
 	width: 100%;
+	height: 250px;
 	bottom: 0;
-
 }
 
 

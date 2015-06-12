@@ -142,28 +142,19 @@ html, body {
 	width: 100%;
 	height: 100%;
 }
-.resa-background {
-	display: block;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin: 0;
-	padding: 0;
-	background-image: url(gradient-background.jpg);
-	background-size: cover;
-}
 
 .resa-container {
-	display: block;
-	position: relative;
-	float: left;
-	width: 100%;
-	height: 100%;
-	padding: 5%;
-	padding-top: 2%;
-	overflow: auto;
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  padding-top: 2%;
+  overflow: auto;
+  background-image: url(gradient-background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 .resa-mois {
 	float:left;

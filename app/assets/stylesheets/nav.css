@@ -24,6 +24,7 @@
 
 .relative_nav {
 	width: 85%;
+	min-height: calc(100% - 250px);
 	float: right;
 	text-align: center;
 }
