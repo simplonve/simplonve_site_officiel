@@ -11,4 +11,6 @@ footer {
 	float: left;
 	height: 200px;
 	bottom: 0;
+	font-family: 'Museo';
+	font-size: 0.8em;
 }

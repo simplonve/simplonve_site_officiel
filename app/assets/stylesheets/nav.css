@@ -6,11 +6,11 @@
 	opacity: 0.75;
 	padding: 1%;
 	position: fixed;
+	transition: all 0.7s;
 	z-index: 9999;
 }
 .layout_nav:hover{
 	margin:0;
-	transition: all 2s;
 }
 
 .link_nav {
@@ -28,7 +28,9 @@
 
 .main-content {
 	width: 100%;
-	min-height: calc(100% - 200px);
+	min-height: 112%;
 	float: left;
 	text-align: center;
+	background: url('photonb.png');
+	background-size: 100%;
 }
