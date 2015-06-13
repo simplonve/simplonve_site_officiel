@@ -1,21 +1,12 @@
 .polygone-vert {
-	width: 200px;
-	 position : absolute;
-            z-index : 2;
-}
-.polygone-bleu {
-	width: 200px;
+	width: 15%;
 	position : absolute;
            z-index : 1;
 }
-.call-to-action-txt {
-	font-weight: bold;
-	font-style: 'museo';
-	position: absolute;
-           z-index: 3;
-           top: 50px;
-           padding-left: 30px;
-           color: #E6154D;
+.polygone-bleu {
+	width: 15%;
+	position : absolute;
+           z-index : 2;
 }
 .calltoaction-button .polygone-vert{
 	-webkit-transition:all 2s ease-in-out;
@@ -27,5 +18,7 @@
 	transform:rotate(352deg);
 }
 .calltoaction-button {
-	float: left;
+	width: 100%;
+            padding-left: 50%;
+            padding-bottom: 20%;
 }
