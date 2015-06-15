@@ -1,0 +1,36 @@
+.container_logo{
+	display: flex;
+	float: left;
+	width: 100%;
+	flex-wrap: wrap;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.logo{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	align-items:center;
+	align-content: space-around;
+}
+
+.grayscale{
+	float: left;
+	transition: all 1s;
+	filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+}
+
+.grayscale:hover{
+	width:20%;
+	filter: grayscale(0);
+    -webkit-filter:  grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter:  grayscale(0);
+    -ms-filter:  grayscale(0);
+}

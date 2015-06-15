@@ -1,11 +1,12 @@
 .polygone-vert {
-	width: 15%;
+	width: 250px;
 	position : absolute;
     z-index : 1;
-    transform: rotate(-8deg);
+    transform:rotate(-8deg);
+
 }
 .polygone-bleu {
-	width: 15%;
+	width: 250px;
 	position : absolute;
     z-index : 2;
 }
@@ -15,6 +16,7 @@
 	-o-transition:all 0.5s ease-in-out;
 	transition:all 0.5s ease-in-out;
  }
+
 .polygone-bleu:hover {
 	transform:rotate(-8deg);
 }
