@@ -1,8 +1,14 @@
 .polygone-vert {
 	width: 250px;
 	position : absolute;
+<<<<<<< HEAD
              z-index : 1;
              transform:rotate(-8deg);
+=======
+    z-index : 1;
+    transform:rotate(-8deg);
+
+>>>>>>> ff248c5d12b2b305e62cb84d414781d470d2ba58
 }
 .polygone-bleu {
 	width: 250px;
@@ -15,7 +21,8 @@
 	-o-transition:all 0.5s ease-in-out;
 	transition:all 0.5s ease-in-out;
  }
-.polygone-bleu:hover{
+
+.polygone-bleu:hover {
 	transform:rotate(-8deg);
 }
 .calltoaction-button {
