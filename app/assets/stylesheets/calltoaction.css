@@ -1,27 +1,28 @@
 .polygone-vert {
 	width: 15%;
 	position : absolute;
-           z-index : 1;
+    z-index : 1;
+    transform:rotate(-8deg);
 }
 .polygone-bleu {
 	width: 15%;
 	position : absolute;
-           z-index : 2;
+    z-index : 2;
 }
-.calltoaction-button .polygone-vert{
-	-webkit-transition:all 2s ease-in-out;
-	-moz-transition:all 2s ease-in-out;
-	-o-transition:all 2s ease-in-out;
-	transition:all 2s ease-in-out;
+.polygone-bleu{
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
  }
-.calltoaction-button:hover .polygone-vert{
-	transform:rotate(352deg);
+.polygone-bleu:hover{
+	transform:rotate(-8deg);
 }
 .calltoaction-button {
 	width: 1%;
-            padding-left: 77%;
-            padding-bottom: 12%;
-            padding-top: 8%;
+    padding-left: 77%;
+    padding-bottom: 12%;
+    padding-top: 8%;
 
 
 }
