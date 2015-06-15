@@ -1,11 +1,11 @@
 .polygone-vert {
-	width: 15%;
+	width: 250px;
 	position : absolute;
     z-index : 1;
     transform:rotate(-8deg);
 }
 .polygone-bleu {
-	width: 15%;
+	width: 250px;
 	position : absolute;
     z-index : 2;
 }
