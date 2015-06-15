@@ -33,6 +33,7 @@
 	float: left;
 	text-align: center;
 	background: url('photonb2.png');
+	background-repeat: no-repeat;
 	background-size: 100%;
 }
 #nav-toggle { position: relative; 
