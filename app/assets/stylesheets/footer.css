@@ -6,7 +6,7 @@ footer {
 	justify-content:space-around;
 	align-items:center;
 	align-content: space-around;
-	background-color: #407ca7;
+	background-color: #333;
 	position: relative;
 	float: left;
 	height: 200px;
@@ -38,4 +38,3 @@ footer {
 	width: 50px;
 	height: 50px;
 }
-
