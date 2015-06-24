@@ -1,0 +1,68 @@
+// Place all the styles related to the bandeau controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//colors
+$color_cello_approx: rgb(27, 60, 87);
+$white: #fff;
+
+//fonts
+$font_0: Roboto;
+
+//urls
+$url_0: url(Roboto/Roboto-Thin.eot);
+$url_1: url(Roboto/Roboto-Thin.eot?#iefix);
+$url_2: url(Roboto/Roboto-Thin.woff);
+$url_3: url(Roboto/Roboto-Thin.ttf);
+$url_4: url(Roboto/Roboto-Thin.svg#Roboto);
+
+@font-face {
+	font-family: $font_0;
+	src: $url_0;
+	src: $url_1 format('embedded-opentype'), $url_2 format('woff'), $url_3 format('truetype'), $url_4 format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.citation {
+	font-family: $font_0;
+	font-size: 1.4em;
+	color: $color_cello_approx;
+	padding: 2%;
+}
+
+.auteur {
+	font-family: $font_0;
+	font-size: 1.2em;
+	text-align: right;
+	padding: 2% 2% 2% 50%;
+}
+
+#mainText {
+	top: 150px;
+	width: 50%;
+	min-width: 500px;
+	margin: 50px auto;
+}
+
+word {
+	display: inline-block;
+}
+
+letter {
+	display: inline-block;
+	white-space: pre;
+	background: none;
+	//Instead of the line below you could use @includetransition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: 0.5s;
+	&.initial {
+		opacity: 0;
+		//Instead of the line below you could use @includetext-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		text-shadow: 0 0 9px;
+		color: $white;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: scale(3);
+		//Instead of the line below you could use @includetransform-origin($origin-x, $origin-y, $origin-z, $only3d)
+		transform-origin: 150% 50%;
+	}
+}
