@@ -1,25 +1,48 @@
+.fond-ecran {
+	width: 100%;
+	display: cover;
 
-.calltoaction {
+}
+.logo_simplonve {
+
+}
+.introduction {
+	font-family: 'Raleway-Light';
+	font-size: 1.3em;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: flex-start;
-	margin-top: 40%;
-	margin-bottom: 20%;
+	justify-content: space-around;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	text-align: left;
 }
-.calltxt {
-	width: 70%;
+
+.intro_simplonve {
+	width: 30%;
+	min-width: 300px;
+	padding-left: 2%;
+}
+.intro_simploniens {
+	width: 30%;
+	min-width: 300px;
+	padding-left: 2%;
+	margin-left: 2%;
+}
+/*.calltxt {
+	width: 60%;
 	min-width: 500px;
 	margin-right: 4%;
 	padding-left: 5%;
 	font-family: 'Museo';
 	font-size: 1.4em;
 	text-align: left;
-}
+}*/
 .calltoaction-button {
 	width: 25%;
-	display: flex;
+	min-width: 250px;
+	margin-left: 10%;
 	padding: auto; 
 }
 
