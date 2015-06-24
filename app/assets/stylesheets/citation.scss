@@ -24,6 +24,15 @@ $url_4: url(Roboto/Roboto-Thin.svg#Roboto);
 	font-style: normal;
 }
 
+.zone-citation {
+	display: flex;
+	float: left;
+	width: 100%;
+	flex-wrap: wrap;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
 .citation {
 	font-family: $font_0;
 	font-size: 1.4em;
@@ -39,6 +48,7 @@ $url_4: url(Roboto/Roboto-Thin.svg#Roboto);
 }
 
 #mainText {
+	height: 25%;
 	top: 150px;
 	width: 50%;
 	min-width: 500px;
