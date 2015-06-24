@@ -68,4 +68,13 @@ ActiveRecord::Schema.define(version: 20150618130545) do
 
   add_index "comments", ["article_id"], name: "index_comments_on_article_id"
 
+  create_table "users", force: :cascade do |t|
+    t.string   "name"
+    t.boolean  "admin"
+    t.string   "email"
+    t.string   "password"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
 end
