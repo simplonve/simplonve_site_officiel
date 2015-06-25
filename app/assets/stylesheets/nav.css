@@ -1,9 +1,8 @@
 .layout_nav {
-	margin: 0 0 0 -150px;
+	margin: 0 0 0 -175px;
 	width: 210px;
 	height: 100%;
-	background-color: #00518A;
-	opacity: 0.75;
+	background-color: rgba(0,81,138,1);
 	padding: 1%;
 	position: fixed;
 	transition: all 0.7s;
@@ -43,7 +42,7 @@
 				margin-bottom: 20%;			
 }
 
-#nav-toggle { cursor: pointer; padding: 10px 35px 16px 0px; }
+#nav-toggle { cursor: pointer; padding: 10px 33px 16px 0px; }
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
   cursor: pointer;
   border-radius: 1px;
