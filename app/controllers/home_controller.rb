@@ -3,4 +3,8 @@ class HomeController < ApplicationController
 		tirage_citation = rand(Citation.all.length)+1
 	  	@citation = Citation.find(tirage_citation)
 	end
+
+	def citation
+
+	end
 end
