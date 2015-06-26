@@ -12,8 +12,8 @@
    id="svg3039"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   width="1052"
-   height="744"
+   width="1350"
+   height="1100"
    sodipodi:docname="logosimplonve_bleu.svg">
   <metadata
      id="metadata3045">
@@ -42,59 +42,60 @@
      inkscape:window-height="876"
      id="namedview3041"
      showgrid="false"
-     inkscape:zoom="1.0226437"
+     inkscape:zoom="0.51132185"
      inkscape:cx="385.69676"
-     inkscape:cy="382.47352"
+     inkscape:cy="407.66086"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg3039" />
   <path
-     style="fill:#075387;stroke:#075387;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
-     d="M 578.1875 16.1875 L 106 214.21875 L 115.375 565.0625 L 716.71875 706.25 L 963.3125 398 L 578.1875 16.1875 z M 576.125 24.0625 L 954.75 398.65625 L 710.5 701.28125 L 122.0625 559.75 L 112.40625 217.78125 L 576.125 24.0625 z "
-     id="path2982" />
+     style="fill:#075387;fill-opacity:1;stroke:#075387;stroke-width:1.50653696px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 741.34829,36.082078 29.980372,334.42348 44.104152,862.98256 950.05074,1075.6868 1321.5534,611.29672 741.34829,36.082078 z M 738.24106,47.946055 1308.6536,612.28539 940.68197,1068.2011 54.179121,854.97909 39.631624,339.79052 738.24106,47.946055 z"
+     id="path2982"
+     inkscape:connector-curvature="0" />
   <text
      xml:space="preserve"
-     style="font-size:60.58770752px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
-     x="453.56512"
-     y="160.90529"
+     style="font-size:91.27761841px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="553.6001"
+     y="254.10474"
      id="text2992"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan2994"
-       x="453.56512"
-       y="160.90529">Venez</tspan></text>
+       x="553.6001"
+       y="254.10474">Venez</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:81.54360962px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
-     x="185.45647"
-     y="292.18665"
+     style="font-size:122.84845734px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="149.68448"
+     y="451.88498"
      id="text2996"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan2998"
-       x="185.45647"
-       y="292.18665">découvrir</tspan></text>
+       x="149.68448"
+       y="451.88498">découvrir</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:71.89065552px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
-     x="462.45493"
-     y="407.38516"
+     style="font-size:108.30593109px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="566.99292"
+     y="625.43579"
      id="text3000"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan3002"
-       x="462.45493"
-       y="407.38516">la planéte</tspan></text>
+       x="566.99292"
+       y="625.43579">la planéte</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:98.71154022px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
-     x="200.50209"
-     y="545.01672"
+     style="font-size:148.71258545px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="172.35127"
+     y="832.78284"
      id="text3004"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan3006"
-       x="200.50209"
-       y="545.01672">SimplonVe</tspan></text>
+       x="172.35127"
+       y="832.78284">SimplonVe</tspan></text>
 </svg>
