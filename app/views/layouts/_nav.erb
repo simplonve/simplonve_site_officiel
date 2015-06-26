@@ -1,11 +1,12 @@
 <nav class="layout_nav">
-	<div id="nav-toggle"><span></span></div>
-	<%= link_to 'accueil', root_path, :class => "link_nav" %>
-	<%= link_to 'intervenants', intervenants_path, :class => "link_nav" %>
-	<%= link_to 'réalisations', root_path, :class => "link_nav" %> 
+	<div id="nav-toggle"><div id="burger"><span></span></div></div>
+	<div class="liens">	<%= link_to 'accueil', root_path, :class => "link_nav" %>
+		<%= link_to 'intervenants', intervenants_path, :class => "link_nav" %>
+		<%= link_to 'réalisations', root_path, :class => "link_nav" %> 
+	</div>
 </nav>
 
 <script type="text/javascript">document.querySelector( "#nav-toggle" )
-  .addEventListener( "click", function() {
-    this.classList.toggle( "active" );
-  });</script>
+	.addEventListener( "click", function() {
+		this.classList.toggle( "active" );
+	});</script>
