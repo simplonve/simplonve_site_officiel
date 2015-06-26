@@ -46,8 +46,15 @@
 	padding: auto; 
 }
 
-.polygone-bleu {
+.polygone-vert {
 
+	width: 20%;
+	min-width: 200px;
+	position : absolute;
+    z-index : 1;
+}
+
+.polygone-bleu {
 	-webkit-transition:all 0.5s ease-in-out;
 	-moz-transition:all 0.5s ease-in-out;
 	-o-transition:all 0.5s ease-in-out;
@@ -56,16 +63,9 @@
 	min-width: 200px;
 	position : absolute;
     z-index : 2;
-}
-
-.polygone-bleu:hover {
-	transform:rotate(-8deg);
-}
-.polygone-vert {
-	width: 20%;
-	min-width: 200px;
-	position : absolute;
-    z-index : 1;
     transform:rotate(-8deg);
 
+}
+.polygone-bleu:hover {
+	transform:rotate(8deg);
 }

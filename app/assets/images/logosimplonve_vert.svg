@@ -14,7 +14,7 @@
    inkscape:version="0.48.4 r9939"
    width="1350"
    height="1100"
-   sodipodi:docname="logosimplonve_bleu.svg">
+   sodipodi:docname="logosimplonve_vert.svg">
   <metadata
      id="metadata3045">
     <rdf:RDF>
@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -42,16 +42,61 @@
      inkscape:window-height="876"
      id="namedview3041"
      showgrid="false"
-     inkscape:zoom="0.51132185"
-     inkscape:cx="6.2879788"
-     inkscape:cy="407.66086"
+     inkscape:zoom="0.72311829"
+     inkscape:cx="420.38976"
+     inkscape:cy="523.85236"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg3039" />
   <path
-     style="fill:#789c3c;fill-opacity:1;stroke:#789c3c;stroke-width:1.50653696000000004px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="M 741.34829,36.082078 29.980372,334.42348 44.104152,862.98256 950.05074,1075.6868 1321.5534,611.29672 741.34829,36.082078 z M 738.24106,47.946055 1308.6536,612.28539 940.68197,1068.2011 54.179121,854.97909 39.631624,339.79052 738.24106,47.946055 z"
+     style="fill:#789c3c;fill-opacity:1;stroke:none;stroke-width:1.50653696000000004px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 741.34829,36.082078 29.980372,334.42348 44.104152,862.98256 950.05074,1075.6868 1321.5534,611.29672 z M 738.24106,47.946055 1308.6536,612.28539 946.06019,1066.2454 54.179121,854.97909 39.631624,339.79052 z"
      id="path2982"
-     inkscape:connector-curvature="0" />
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccccccccccc" />
+  <text
+     xml:space="preserve"
+     style="font-size:91.27761841px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="560.54651"
+     y="264.2421"
+     id="text2992"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan2994"
+       x="560.54651"
+       y="264.2421">Venez</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:122.84845734px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="156.63087"
+     y="462.02234"
+     id="text2996"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan2998"
+       x="156.63087"
+       y="462.02234">découvrir</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:108.30593109px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="573.93933"
+     y="635.57312"
+     id="text3000"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3002"
+       x="573.93933"
+       y="635.57312">la planète</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:148.71258545px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="179.29767"
+     y="842.92017"
+     id="text3004"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3006"
+       x="179.29767"
+       y="842.92017">SimplonVE</tspan></text>
 </svg>

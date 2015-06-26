@@ -42,60 +42,17 @@
      inkscape:window-height="876"
      id="namedview3041"
      showgrid="false"
-     inkscape:zoom="0.51132185"
-     inkscape:cx="385.69676"
-     inkscape:cy="407.66086"
+     inkscape:zoom="0.72311829"
+     inkscape:cx="688.67228"
+     inkscape:cy="523.85236"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg3039" />
   <path
      style="fill:#075387;fill-opacity:1;stroke:#075387;stroke-width:1.50653696px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="M 741.34829,36.082078 29.980372,334.42348 44.104152,862.98256 950.05074,1075.6868 1321.5534,611.29672 741.34829,36.082078 z M 738.24106,47.946055 1308.6536,612.28539 940.68197,1068.2011 54.179121,854.97909 39.631624,339.79052 738.24106,47.946055 z"
+     d="M 741.34829,36.082078 29.980372,334.42348 44.104152,862.98256 950.05074,1075.6868 1321.5534,611.29672 z M 738.24106,47.946055 1308.6536,612.28539 946.06019,1066.2454 54.179121,854.97909 39.631624,339.79052 z"
      id="path2982"
-     inkscape:connector-curvature="0" />
-  <text
-     xml:space="preserve"
-     style="font-size:91.27761841px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
-     x="553.6001"
-     y="254.10474"
-     id="text2992"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan2994"
-       x="553.6001"
-       y="254.10474">Venez</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-size:122.84845734px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
-     x="149.68448"
-     y="451.88498"
-     id="text2996"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan2998"
-       x="149.68448"
-       y="451.88498">découvrir</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-size:108.30593109px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
-     x="566.99292"
-     y="625.43579"
-     id="text3000"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan3002"
-       x="566.99292"
-       y="625.43579">la planéte</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-size:148.71258545px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
-     x="172.35127"
-     y="832.78284"
-     id="text3004"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan3006"
-       x="172.35127"
-       y="832.78284">SimplonVe</tspan></text>
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccccccccccc" />
 </svg>
