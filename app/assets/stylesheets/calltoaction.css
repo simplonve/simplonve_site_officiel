@@ -8,7 +8,7 @@
 }
 .introduction {
 	font-family: 'Raleway-Light';
-	font-size: 1.3em;
+	font-size: 1.2em;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -17,6 +17,10 @@
 	margin-top: 5%;
 	margin-bottom: 10%;
 	text-align: left;
+}
+
+h2 {
+	color: #FF0000;
 }
 
 .intro_simplonve {
