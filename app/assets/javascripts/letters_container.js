@@ -21,10 +21,3 @@ function doTimer(letter, delay){
 		letter.removeAttribute('class');
 	}, delay);
 } 
-
-function AffichageHeure(){
-   var exempleDate = new Date();
-   var exempleHeure = exempleDate.toLocaleTimeString();
-   document.getElementById('divHeure').innerHTML = exempleHeure;
-}
-var exempleInterval = setInterval("AffichageHeure()", 1000); 
