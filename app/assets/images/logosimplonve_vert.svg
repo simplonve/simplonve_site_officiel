@@ -9,14 +9,14 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="svg3154"
+   id="svg3039"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   width="1052"
-   height="744"
-   sodipodi:docname="logosimplonve_vertxxxx.svg">
+   width="1350"
+   height="1100"
+   sodipodi:docname="logosimplonve_bleu.svg">
   <metadata
-     id="metadata3160">
+     id="metadata3045">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -28,7 +28,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs3158" />
+     id="defs3043" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -38,19 +38,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1533"
-     inkscape:window-height="827"
-     id="namedview3156"
+     inkscape:window-width="1600"
+     inkscape:window-height="876"
+     id="namedview3041"
      showgrid="false"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="399.04228"
-     inkscape:cy="636.56886"
-     inkscape:window-x="49"
-     inkscape:window-y="85"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg3154" />
+     inkscape:zoom="0.51132185"
+     inkscape:cx="6.2879788"
+     inkscape:cy="407.66086"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3039" />
   <path
-     style="fill:#789c3c;stroke:#789c3c;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
-     d="M 625 26.75 L 131.25 161.34375 L 95.03125 509.65625 L 671 728.9375 L 956.3125 456.15625 L 625 26.75 z M 622.78125 34.28125 L 949.0625 455.3125 L 669.875 722.25 L 101.15625 505.46875 L 136.53125 165.53125 L 622.78125 34.28125 z "
-     id="path2982" />
+     style="fill:#789c3c;fill-opacity:1;stroke:#789c3c;stroke-width:1.50653696000000004px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 741.34829,36.082078 29.980372,334.42348 44.104152,862.98256 950.05074,1075.6868 1321.5534,611.29672 741.34829,36.082078 z M 738.24106,47.946055 1308.6536,612.28539 940.68197,1068.2011 54.179121,854.97909 39.631624,339.79052 738.24106,47.946055 z"
+     id="path2982"
+     inkscape:connector-curvature="0" />
 </svg>
