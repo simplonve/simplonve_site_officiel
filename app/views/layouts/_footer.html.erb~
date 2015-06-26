@@ -1,5 +1,5 @@
 <footer>
-	<a href="http://simplon.co" class="simplonlogo" target="_blank"></a>
+	<a href="http://simplon.co" id="simplonlogo" target="_blank"></a>
 	<div class="mail">
 	<h4>simplon.ve@gmail.com</h4>
 	<p>Pôleyrieux</p>

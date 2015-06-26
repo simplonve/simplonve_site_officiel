@@ -24,7 +24,7 @@ footer {
 	width: 200px;
 	height: 50px;
 }
-.simplonlogo:hover {
+.simplonlogo:hoover {
 	display: block;
 	float: left;
 	background: url('logosimploncoblanc.svg');
