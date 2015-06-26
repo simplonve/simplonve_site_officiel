@@ -22,7 +22,6 @@ function doTimer(letter, delay){
 	}, delay);
 } 
 
-
 function AffichageHeure(){
    var exempleDate = new Date();
    var exempleHeure = exempleDate.toLocaleTimeString();
