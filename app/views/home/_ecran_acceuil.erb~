@@ -1,2 +1,0 @@
-<%= image_tag("logosimplonvemaster.svg", class: "logo_simplonve") %>
-<%= image_tag('photonb2.png', class: "fond-ecran")%>

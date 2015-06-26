@@ -22,9 +22,10 @@ function doTimer(letter, delay){
 	}, delay);
 } 
 
-function AffichageHeure(){
-   var exempleHeure = exempleDate.toLocaleTimeString();
-   document.getElementById('divDate').innerHTML = exempleHeure;
-}
 
-var exempleInterval = setInterval("AffichageHeure()", 1000);
+function AffichageHeure(){
+   var exempleDate = new Date();
+   var exempleHeure = exempleDate.toLocaleTimeString();
+   document.getElementById('divHeure').innerHTML = exempleHeure;
+}
+var exempleInterval = setInterval("AffichageHeure()", 1000); 
