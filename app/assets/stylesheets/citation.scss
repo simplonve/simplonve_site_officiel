@@ -26,24 +26,23 @@ $url_4: url(Roboto/Roboto-Thin.svg#Roboto);
 
 .zone-citation {
 	width: 100%;
-    min-height: 30%;
+    height: 180px;
     float: left;
-    background-color: #D8D8D8;
+    background-color: rgba(136, 136, 136, 0.1);
     background-size: 100% auto;
 }
 
 .citation {
 	font-family: $font_0;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	color: $color_cello_approx;
-	padding: 2%;
 }
 
 .auteur {
 	font-family: $font_0;
 	font-size: 1.2em;
 	text-align: right;
-	padding: 2% 2% 2% 50%;
+	padding: 1% 2% 2% 50%;
 }
 
 #mainText {
