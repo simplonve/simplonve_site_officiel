@@ -9,7 +9,7 @@ footer {
 	background-color: #333;
 	position: relative;
 	float: left;
-	height: 200px;
+	height: 180px;
 	bottom: 0;
 	font-family: 'Museo';
 	font-size: 0.8em;
@@ -37,4 +37,15 @@ footer {
 	background: url('facebook.svg');
 	width: 50px;
 	height: 50px;
+}
+
+.mail {
+	font-size: 1.1em;
+	color: #888888;
+}
+
+h4 {
+	font-size: 1.2em;
+	color:#C5C5C5;
+
 }

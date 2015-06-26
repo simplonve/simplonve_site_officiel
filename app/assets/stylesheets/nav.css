@@ -1,9 +1,8 @@
 .layout_nav {
-	margin: 0 0 0 -150px;
+	margin: 0 0 0 -160px;
 	width: 210px;
 	height: 100%;
-	background-color: #00518A;
-	opacity: 0.75;
+	background-color: rgba(0,81,138,1);
 	padding: 1%;
 	position: fixed;
 	transition: all 0.7s;
@@ -36,6 +35,15 @@
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
+.liens {
+	position: absolute;
+	margin-top: 45%;
+}
+.burger {
+	position: absolute;
+	padding-right: 20px;
+	margin-left: 10px;
+}
 #nav-toggle { position: relative; 
 				/*margin-left: 20%; */
 				float: right;
@@ -43,15 +51,15 @@
 				margin-bottom: 20%;			
 }
 
-#nav-toggle { cursor: pointer; padding: 10px 35px 16px 0px; }
+#nav-toggle { cursor: pointer; padding: 10px 33px 16px 0px; }
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-  cursor: pointer;
-  border-radius: 1px;
-  height: 5px;
-  width: 35px;
-  background: white;
   position: absolute;
   display: block;
+  border-radius: 1px;
+  height: 5px;
+  width: 28px;
+  background: white;
+  cursor: pointer;
   content: '';
 }
 #nav-toggle span:before {

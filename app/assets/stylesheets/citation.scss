@@ -1,0 +1,72 @@
+// Place all the styles related to the bandeau controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//colors
+$color_cello_approx: rgb(27, 60, 87);
+$white: #fff;
+
+//fonts
+$font_0: Roboto;
+
+//urls
+$url_0: url(Roboto/Roboto-Thin.eot);
+$url_1: url(Roboto/Roboto-Thin.eot?#iefix);
+$url_2: url(Roboto/Roboto-Thin.woff);
+$url_3: url(Roboto/Roboto-Thin.ttf);
+$url_4: url(Roboto/Roboto-Thin.svg#Roboto);
+
+@font-face {
+	font-family: $font_0;
+	src: $url_0;
+	src: $url_1 format('embedded-opentype'), $url_2 format('woff'), $url_3 format('truetype'), $url_4 format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.zone-citation {
+	width: 100%;
+    height: 180px;
+    float: left;
+    background-color: rgba(136, 136, 136, 0.1);
+    background-size: 100% auto;
+}
+
+.citation {
+	font-family: $font_0;
+	font-size: 1.4em;
+	color: $color_cello_approx;
+}
+
+.auteur {
+	font-family: $font_0;
+	font-size: 1.2em;
+	text-align: right;
+	padding: 1% 2% 2% 50%;
+}
+
+#mainText {
+	height: 25%;
+	top: 150px;
+	width: 50%;
+	min-width: 500px;
+	margin: 50px auto;
+}
+
+word {
+	display: inline-block;
+}
+
+letter {
+	display: inline-block;
+	white-space: pre;
+	background: none;
+	transition: 0.5s;
+	&.initial {
+		opacity: 0;
+		text-shadow: 0 0 9px;
+		color: $white;
+		transform: scale(3);
+		transform-origin: 150% 50%;
+	}
+}

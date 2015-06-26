@@ -8,7 +8,7 @@
 }
 .introduction {
 	font-family: 'Raleway-Light';
-	font-size: 1.3em;
+	font-size: 1.2em;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -17,6 +17,10 @@
 	margin-top: 5%;
 	margin-bottom: 10%;
 	text-align: left;
+}
+
+h2 {
+	color: rgba(136, 136, 136, 1);
 }
 
 .intro_simplonve {
@@ -46,8 +50,15 @@
 	padding: auto; 
 }
 
-.polygone-bleu {
+.polygone-vert {
 
+	width: 20%;
+	min-width: 200px;
+	position : absolute;
+    z-index : 1;
+}
+
+.polygone-bleu {
 	-webkit-transition:all 0.5s ease-in-out;
 	-moz-transition:all 0.5s ease-in-out;
 	-o-transition:all 0.5s ease-in-out;
@@ -56,16 +67,9 @@
 	min-width: 200px;
 	position : absolute;
     z-index : 2;
-}
-
-.polygone-bleu:hover {
-	transform:rotate(-8deg);
-}
-.polygone-vert {
-	width: 20%;
-	min-width: 200px;
-	position : absolute;
-    z-index : 1;
     transform:rotate(-8deg);
 
+}
+.polygone-bleu:hover {
+	transform:rotate(8deg);
 }
