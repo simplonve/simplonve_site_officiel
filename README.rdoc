@@ -15,9 +15,57 @@ L'idée des photos du Lab'z Hack en fond d'écran permettrait de démarrer la co
 
 Au boulot ;-)
 
-
 ## Problème | Troubleshooting
 
 ### Postgres en développement
 
 La gem 'pg' est nécéssaire pour mettre en production sur Heroku, dans le Gemfile elle est située à l'intérieur
+
+Charte graphique
+
+1 Le logo et ses références couleurs
+-modèle en couleurs
+
+-modèle en niveau de gris
+
+-teinte des couleurs définies
+  écrans et web 
+
+  tons directs
+
+  niveaux de gris
+
+  en quadrichromie
+  noir N 100
+  blanc N 000
+
+2 le logotype et son utilisation
+  Le logo peut être utilisé avec ou sans le double pentagone
+  le logo s'utilise principalement dans sa version 4 couleurs
+  les variantes noires ou blanches seront préconisées ...
+
+
+3 le logotype et son univers typographique
+  font : Raleway Extra Light 400 pour la typographie letres fines des textes
+  		 Raleway Light 200 pour les citations
+  		 Raleway Light 400 pour les titres
+
+
+4 Zone de protection
+  une zone d'exclusivité autour du logo est crée pour eviter de perturber sa lecture
+
+5 Interdictions
+  Ne pas modifier la baseline, ne pas déplacer le VE.
+  Ne pas déformer le logo (garder l'homotécie initiale)
+  Ne pas attribuer d'autres couleurs que celles réferencées précédemment
+
+6 Composition de la page 
+  En présence de photo ou de logo sur un même bandeau, reserver un tiers du bandeau à la photo et deux tiers au texte. Peut importe l'alignement droite ou gauche de l'espace photo ou logo
+
+  Sur chaque page présence du logo centrée en header, de la barre de navigation à gauche et du footer
+  Pas de marges gauche et droite pour les bandeaux
+  Pas de border et de border radius, de box shadow pour les boites
+  logos grisés et hoover couleur originales
+  Background général blanc, pas background photo sur les bandeaux de texte
+  Tiercer les espaces en hauteur et en largeur.
+
