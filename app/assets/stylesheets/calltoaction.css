@@ -19,6 +19,10 @@
 	text-align: left;
 }
 
+h2 {
+	color: #FF0000;
+}
+
 .intro_simplonve {
 	width: 30%;
 	min-width: 300px;
