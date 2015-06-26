@@ -20,4 +20,11 @@ function doTimer(letter, delay){
 	setTimeout(function(){ 
 		letter.removeAttribute('class');
 	}, delay);
+} 
+
+function AffichageHeure(){
+   var exempleHeure = exempleDate.toLocaleTimeString();
+   document.getElementById('divDate').innerHTML = exempleHeure;
 }
+
+var exempleInterval = setInterval("AffichageHeure()", 1000);
