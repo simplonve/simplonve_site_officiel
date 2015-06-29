@@ -39,8 +39,8 @@
 }
 .burger {
 	position: absolute;
-	padding-right: 20px;
-	margin-left: 8px;
+	margin-right: 10%;
+	margin-left: 25%;
 }
 #nav-toggle { position: relative; 
 				/*margin-left: 20%; */
