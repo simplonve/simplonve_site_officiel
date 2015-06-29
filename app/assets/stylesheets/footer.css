@@ -20,38 +20,38 @@ footer {
 .simplonlogo {
 	display: block;
 	float: left;
-	background: url(asset-path('logosimploncogris.svg'));
+	background: url('logosimploncogris.svg');
 	width: 200px;
 	height: 50px;
 }
 .simplonlogo:hover {
 	display: block;
 	float: left;
-	background:url(asset-path('logosimploncoblanc.svg'));
+	background:url('logosimploncoblanc.svg');
 	width: 200px;
 	height: 50px;
 }
 #twitter {
 	display: block;
 	float: left;
-	background:url(asset-path('twittersansfond.svg'));
+	background:url('twittersansfond.svg');
 	width: 50px;
 	height: 50px;
 }
 #twitter:hover {
-	background:url(asset-path('twitter.svg'));
+	background:url('twitter.svg');
 	width: 50px;
 	height: 50px;
 }
 #facebook {
 	display: block;
 	float: left;
-	background:url(asset-path('facebooksansfond.svg'));
+	background:url('facebooksansfond.svg');
 	width: 50px;
 	height: 50px;
 }
 #facebook:hover {
-	background:url(asset-path('facebook.svg'));
+	background:url('facebook.svg');
 	width: 50px;
 	height: 50px;
 }
