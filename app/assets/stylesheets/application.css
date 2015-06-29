@@ -34,13 +34,14 @@ body{
 }
 
 .entete {
-	height: 180px;
+	height: 150px;
 	width: 100%;
 }
 
 .logo {
 	width:100%;
 	height:auto;
+	margin-top: 2%;
 }
 
 .titre-logo {
@@ -49,8 +50,5 @@ body{
 	text-align: center;
 	font-family: 'Raleway-Light';
 	font-size: 1.1em;
-<<<<<<< HEAD
-=======
-	margin-bottom: 3%;
->>>>>>> 6a53066d1384eb919585b2d45f8d195b2c77430e
+	margin-bottom: 2%;
 }
