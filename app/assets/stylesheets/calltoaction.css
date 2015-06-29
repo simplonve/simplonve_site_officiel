@@ -21,10 +21,16 @@ h2 {
 	color: rgba(136, 136, 136, 1);
 }
 
+.intro_simplonve p{
+	text-align: justify;
+}
 .intro_simplonve {
 	width: 30%;
 	min-width: 300px;
 	padding-left: 2%;
+}
+.intro_simploniens p{
+	text-align: justify;
 }
 .intro_simploniens {
 	width: 30%;
