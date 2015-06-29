@@ -3,8 +3,6 @@
 	float: left;
 	width: 100%;
 	flex-wrap: wrap;
-	margin-top: 1%;
-	margin-bottom: 1%;
 }
 
 .logo{
@@ -14,6 +12,7 @@
 	justify-content:space-around;
 	align-items:center;
 	align-content: space-around;
+	margin: 2%;
 }
 
 .grayscale{
