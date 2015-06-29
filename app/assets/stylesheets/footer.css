@@ -20,7 +20,7 @@ footer {
 .simplonlogo {
 	display: block;
 	float: left;
-	background: url(asset-path('logosimploncogris.svg'))
+	background: url(asset-path('logosimploncogris.svg'));
 	width: 200px;
 	height: 50px;
 }
