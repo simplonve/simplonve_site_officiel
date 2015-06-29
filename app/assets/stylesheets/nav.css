@@ -8,6 +8,7 @@
 	transition: all 0.7s;
 	z-index: 9999;
 }
+
 .layout_nav:hover{
 	margin:0;
 }
@@ -38,8 +39,8 @@
 }
 .burger {
 	position: absolute;
-	padding-right: 20px;
-	margin-left: 10px;
+	margin-right: 10%;
+	margin-left: 25%;
 }
 #nav-toggle { position: relative; 
 				/*margin-left: 20%; */
