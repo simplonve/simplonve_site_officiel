@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'Raleway-Light';
-  src: url('Raleway-Light/Raleway-Light.eot'); /* IE9 Compat Modes */
-  src: url('Raleway-Light/Raleway-Light.woff') format('woff'), /* Pretty Modern Browsers */
-       url('Raleway-Light/Raleway-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('Raleway-Light/Raleway-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: font-url('Raleway-Light/Raleway-Light.eot'); /* IE9 Compat Modes */
+  src: font-url('Raleway-Light/Raleway-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       font-url('Raleway-Light/Raleway-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       font-url('Raleway-Light/Raleway-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 @font-face {
   font-family: 'Alice-Regular';
-  src: url('Alice-Regular/Alice-Regular.eot'); /* IE9 Compat Modes */
-  src: url('Alice-Regular/Alice-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('Alice-Regular/Alice-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('Alice-Regular/Alice-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: font-url('Alice-Regular/Alice-Regular.eot'); /* IE9 Compat Modes */
+  src: font-url('Alice-Regular/Alice-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       font-url('Alice-Regular/Alice-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       font-url('Alice-Regular/Alice-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 @media screen and (min-width: 992px) {
 		.article{
