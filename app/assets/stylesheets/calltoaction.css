@@ -43,7 +43,6 @@ p{
 	height: 300px;
 	padding-left: 10%;
 }
-
 .polygone-vert {
 
 	width: 20%;
@@ -51,7 +50,6 @@ p{
 	position : absolute;
     z-index : 1;
 }
-
 .polygone-bleu {
 	-webkit-transition:all 0.5s ease-in-out;
 	-moz-transition:all 0.5s ease-in-out;
@@ -72,11 +70,9 @@ p{
 	margin-left: 5px;
 	margin-top: 10px;
 	padding: auto;
-
 }
 .polygone-vertblanc {
 	width: 100%;
-
 	position : absolute;
     z-index : 1;
 }
