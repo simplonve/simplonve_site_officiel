@@ -9,10 +9,6 @@
 	z-index: 9999;
 }
 
-.layout_nav:hover{
-	margin:0;
-}
-
 .link_nav {
 	text-decoration: none;
 	color: white;
