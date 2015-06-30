@@ -12,7 +12,6 @@
 	flex-wrap: wrap;
 	justify-content: space-around;
 	margin-top: 5%;
-	margin-bottom: 10%;
 	text-align: left;
 }
 
@@ -32,21 +31,17 @@ p{
 .intro_simplonve {
 	width: 50%;
 	padding-right: 5%;
-
 }
 
 .intro_simploniens {
 	width: 50%;
-	padding-left: 5%;
-	padding-right: 5%;
-
+	padding: 5% ;
 }
 
 .calltoaction-button {
 	width: 50%;
 	height: 300px;
 	padding-left: 10%;
-	
 }
 
 .polygone-vert {
@@ -67,13 +62,13 @@ p{
 	position : absolute;
     z-index : 2;
     transform:rotate(-8deg);
-
 }
+
 .polygone-bleu:hover {
 	transform:rotate(8deg);
 }
 
 #map {
 	height: 333px;
-	width: 500px;
+	width: 50%;
 }
