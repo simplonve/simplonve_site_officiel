@@ -1,7 +1,6 @@
 .fond-ecran {
 	width: 100%;
 	display: cover;
-
 }
 
 .introduction {
@@ -24,34 +23,30 @@ h2 {
 p{
 	text-align: justify;
 }
+
+.row{
+	display: flex;
+	width: 100%;
+}
+
 .intro_simplonve {
-	width: 30%;
-	min-width: 300px;
-	padding-left: 2%;
+	width: 50%;
+	padding-right: 5%;
+
 }
-.intro_simploniens p{
-	text-align: justify;
-}
+
 .intro_simploniens {
-	width: 30%;
-	min-width: 300px;
-	padding-left: 2%;
-	margin-left: 2%;
-}
-/*.calltxt {
-	width: 60%;
-	min-width: 500px;
-	margin-right: 4%;
+	width: 50%;
 	padding-left: 5%;
-	font-family: 'Museo';
-	font-size: 1.4em;
-	text-align: left;
-}*/
+	padding-right: 5%;
+
+}
+
 .calltoaction-button {
-	width: 25%;
-	min-width: 250px;
-	margin-left: 10%;
-	padding: auto; 
+	width: 50%;
+	height: 300px;
+	padding-left: 10%;
+	
 }
 
 .polygone-vert {
@@ -79,6 +74,6 @@ p{
 }
 
 #map {
-	height: 200px;
-	width: 300px;
+	height: 333px;
+	width: 500px;
 }
