@@ -1,44 +1,11 @@
-<div class="introduction">
-	<div class="row">	
-		<div class="calltoaction-button">
-			<a href="http://simplon.co">
-			<%= image_tag("logosimplonve_bleu.svg", class: "polygone-bleu") %>
-			<%= image_tag("logosimplonve_vert.svg", class: "polygone-vert") %></a>
-		</div>
-		<div class="intro_simplonve">
-			<h2>Simplon VE</h2>
-			</br>
-			<p>A l'ombre des châtaigniers ardéchois, SimplonVE c'est une fabrique sociale et solidaire de développeurs.</p>
-			<p>Pendant six mois, les simploniens pourront s'adapter aux différents outils, technologies et au travail en équipe.</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="intro_simploniens">
-			<h2> Les Simploniens</h2>
-			</br>
-			<p>
-				D'horizons différents, ils <b>s'éveillent</b> à l'auto-<b>apprentissage</b> dans une synergie de <b>groupe</b>, partageant leur <b>expérience</b> et leurs compétences. 
-			</p>
-		</div>
-	
-		<div id="map"></div>
-		<script>
-			var tilesService = new L.tileLayer('http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png', {
-					attribution: '',
-					subdomains: ['otile1', 'otile2', 'otile3', 'otile4'],
-					maxZoom: 18
-				});
-
-			var map = L.map('map').setView([44.912404, 4.43767360689655], 8).addLayer(tilesService);
-
-			var circle = L.circle([44.912404, 4.43767360689655], 50,{
-				color: 'red',
-				fillColor: '#f03',
-				fillOpacity: 0.5
-			}).addTo(map);
-
-			circle.bindPopup("SimplonVE").openPopup();
-		</script>	
-	</div>
+<div class="calltoaction-button">
+	<a href="http://simplon.co">
+	<%= image_tag("logosimplonve_bleu.svg", class: "polygone-bleu") %>
+	<%= image_tag("logosimplonve_vert.svg", class: "polygone-vert") %></a>
 </div>
-
+<div class="intro_simplonve">
+	<h2>Simplon VE</h2>
+	</br>
+	<p>A l'ombre des châtaigniers ardéchois, SimplonVE c'est une fabrique sociale et solidaire de développeurs.</p>
+	<p>Pendant six mois, les simploniens pourront s'adapter aux différents outils, technologies et au travail en équipe.</p>
+</div>
