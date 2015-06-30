@@ -1,0 +1,31 @@
+./*logo{
+	display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    padding: 2%;
+}*/
+.titre_logo{
+
+}
+.page_action{
+	display:block;
+}
+
+.prochaine_session{
+
+}
+
+.intervenants_ext{
+
+}
+
+.clients{
+
+}
+
+.dev_ter_ess{
+	
+}

@@ -67,7 +67,32 @@ p{
 .polygone-bleu:hover {
 	transform:rotate(8deg);
 }
+.calltoaction-button-nav {
+	width: 100%;
+	margin-left: 5px;
+	margin-top: 10px;
+	padding: auto;
 
+}
+.polygone-vertblanc {
+	width: 100%;
+
+	position : absolute;
+    z-index : 1;
+}
+.polygone-bleublanc {
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+	width: 100%;
+	position : absolute;
+    z-index : 2;
+    transform:rotate(-8deg);
+}
+.polygone-bleublanc:hover {
+	transform:rotate(8deg);
+}
 #map {
 	height: 333px;
 	width: 50%;
