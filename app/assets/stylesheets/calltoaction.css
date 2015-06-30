@@ -1,9 +1,7 @@
 .fond-ecran {
 	width: 100%;
 	display: cover;
-
 }
-
 .introduction {
 	font-family: 'Raleway-Light';
 	font-size: 1.2em;
@@ -16,7 +14,6 @@
 	margin-bottom: 10%;
 	text-align: left;
 }
-
 h2 {
 	color: rgba(136, 136, 136, 1);
 }
@@ -38,30 +35,18 @@ p{
 	padding-left: 2%;
 	margin-left: 2%;
 }
-/*.calltxt {
-	width: 60%;
-	min-width: 500px;
-	margin-right: 4%;
-	padding-left: 5%;
-	font-family: 'Museo';
-	font-size: 1.4em;
-	text-align: left;
-}*/
 .calltoaction-button {
 	width: 25%;
 	min-width: 250px;
 	margin-left: 10%;
-	padding: auto; 
+	padding: auto;
 }
-
 .polygone-vert {
-
 	width: 20%;
 	min-width: 200px;
 	position : absolute;
     z-index : 1;
 }
-
 .polygone-bleu {
 	-webkit-transition:all 0.5s ease-in-out;
 	-moz-transition:all 0.5s ease-in-out;
@@ -72,12 +57,36 @@ p{
 	position : absolute;
     z-index : 2;
     transform:rotate(-8deg);
-
 }
 .polygone-bleu:hover {
 	transform:rotate(8deg);
 }
+.calltoaction-button-nav {
+	width: 100%;
+	margin-left: 5px;
+	margin-top: 10px;
+	padding: auto;
 
+}
+.polygone-vertblanc {
+	width: 100%;
+
+	position : absolute;
+    z-index : 1;
+}
+.polygone-bleublanc {
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+	width: 100%;
+	position : absolute;
+    z-index : 2;
+    transform:rotate(-8deg);
+}
+.polygone-bleublanc:hover {
+	transform:rotate(8deg);
+}
 #map {
 	height: 200px;
 	width: 300px;
