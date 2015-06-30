@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   #Authentification
   get 'signup' => 'users#new'
+  resources :users
 
   root 'home#index'
   get 'home/index' => 'home#index'
