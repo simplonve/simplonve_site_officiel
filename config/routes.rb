@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  root 'home#index'
+  #Authentification
+  get 'signup' => 'users#new'
 
+  root 'home#index'
   get 'home/index' => 'home#index'
 
   #Projet Blog
