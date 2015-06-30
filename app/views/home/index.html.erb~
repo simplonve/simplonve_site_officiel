@@ -1,5 +1,0 @@
-<%= image_tag('photo-accueil-reduc.jpg', class: "fond-ecran")%>
-<%= render "layouts/bouton_cat" %>
-<%= render "home/calltoaction" %>
-<%= image_tag('photo-accueil2-reduc.jpg', class: "fond-ecran")%>
-<%= render "home/citation" %>  
