@@ -152,7 +152,7 @@ html, body {
   padding: 5%;
   padding-top: 2%;
   overflow: auto;
-  background-image: url(gradient-background.jpg);
+  background-image: url(asset-path('gradient-background.jpg'));
   background-size: cover;
   background-attachment: fixed;
 }
