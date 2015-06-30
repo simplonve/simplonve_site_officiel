@@ -1,21 +1,18 @@
-./*logo{
-	display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: space-around;
-    padding: 2%;
-}*/
-.titre_logo{
 
-}
 .page_action{
-	display:block;
+	display: block;
+	width: 80%;
+	margin:auto;
 }
 
+h2{
+	text-align: center;
+	margin: 3%; 
+}
 .prochaine_session{
-
+	display: block;
+	width: 85%;
+	padding: 8% 7%;
 }
 
 .intervenants_ext{
