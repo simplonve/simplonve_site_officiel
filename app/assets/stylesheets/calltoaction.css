@@ -71,3 +71,8 @@ h2 {
 .polygone-bleu:hover {
 	transform:rotate(8deg);
 }
+
+#map {
+	height: 200px;
+	width: 300px;
+}
