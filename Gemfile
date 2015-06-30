@@ -17,6 +17,7 @@ gem 'ckeditor'
 # Une gem populaire pour uploader des images (attention en pushant sur Heroku (besoin d'un espace de stockage Amazon S3))
 gem 'paperclip'
 gem 'therubyracer', platforms: :ruby
+gem 'bcrypt'
 
 group :production do
   # Postgre est le serveur de production herbergé sur Heroku
