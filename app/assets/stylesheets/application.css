@@ -17,6 +17,9 @@
 @media screen and (max-width: 768px){
 	.logo{
 		padding: 5%;
+		width:100%;
+		height:auto;
+		margin-top: 2%;
 	}
 
 	.entete {
@@ -24,15 +27,6 @@
 		width: 100%;
 	}
 
-	.logo {
-		width:100%;
-		height:auto;
-		margin-top: 2%;
-	}
-
-	.titre-logo {
-		
-	}
 	.row{
 		display: flex;
 		flex-direction: column;
@@ -105,10 +99,14 @@ body{
 	font-family: 'Raleway-Light';
 }
 
+.logo {
+	margin-top: 1%;
+}
+
 .titre-logo {
 	width: 100%;
 	height: auto;
 	text-align: center;
 	font-size: 1.1em;
-	margin-bottom: 2%;
+	margin-bottom: 1%;
 }
