@@ -64,14 +64,17 @@
 		padding-left: 7%;
 		padding-right: 5%;
 	}
+	.titre-presse{
+		font-size: 1em;
+	}	
 	.francebleu_logo {
-		width: 70px;
+		width: 50px;
 	}
 	.france3_logo {
-		width: 40px;
+		width: 30px;
 	}
 	.dauph_logo  {
-		width: 150px;
+		width: 130px;
 	}
 	.taille_mediaquery {
 		width: 100px;
