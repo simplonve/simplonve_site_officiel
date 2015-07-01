@@ -1,8 +1,10 @@
-.container_logo{
+.financeurs {
 	display: flex;
 	float: left;
 	width: 100%;
 	flex-wrap: wrap;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
 .logo{
@@ -19,12 +21,13 @@
 	padding-left: 1%;
 	padding-right: 1%;
 }
-	.taille {
-		width: 200px;
-	}
-	.taille_mediaquery{
-		width: 110px;
-	}
+
+.taille {
+	width: 200px;
+}
+.taille_mediaquery{
+	width: 110px;
+}
 
 .grayscale{
 	float: left;

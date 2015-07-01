@@ -1,5 +1,35 @@
+.presse {
+    display: flex;
+    float: left;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #F2F2F2;
+}
+
 .titre-presse {
-    color: black;
+    text-align: center;
+    color: #E9050C;
+}
+
+.container-presse {
+    display: flex;
+    float: left;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.logo-presse {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:center;
+    align-content: space-around;
+    padding: 0 9%;
 }
 
 .francebleu_logo {
