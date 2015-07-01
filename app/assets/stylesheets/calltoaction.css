@@ -1,6 +1,13 @@
 .fond-ecran {
 	width: 100%;
-	display: cover;
+}
+.fond-ecran2 {
+	width: 100%;
+	filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
 }
 
 .introduction {
@@ -12,7 +19,6 @@
 	flex-wrap: wrap;
 	justify-content: space-around;
 	margin-top: 5%;
-	margin-bottom: 10%;
 	text-align: left;
 }
 
@@ -32,23 +38,18 @@ p{
 .intro_simplonve {
 	width: 50%;
 	padding-right: 5%;
-
 }
 
 .intro_simploniens {
 	width: 50%;
-	padding-left: 5%;
-	padding-right: 5%;
-
+	padding: 5% ;
 }
 
 .calltoaction-button {
 	width: 50%;
 	height: 300px;
 	padding-left: 10%;
-	
 }
-
 .polygone-vert {
 
 	width: 20%;
@@ -56,7 +57,6 @@ p{
 	position : absolute;
     z-index : 1;
 }
-
 .polygone-bleu {
 	-webkit-transition:all 0.5s ease-in-out;
 	-moz-transition:all 0.5s ease-in-out;
@@ -67,13 +67,36 @@ p{
 	position : absolute;
     z-index : 2;
     transform:rotate(-8deg);
-
 }
+
 .polygone-bleu:hover {
 	transform:rotate(8deg);
 }
-
+.calltoaction-button-nav {
+	width: 100%;
+	margin-left: 5px;
+	margin-top: 10px;
+	padding: auto;
+}
+.polygone-vertblanc {
+	width: 100%;
+	position : absolute;
+    z-index : 1;
+}
+.polygone-bleublanc {
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+	width: 100%;
+	position : absolute;
+    z-index : 2;
+    transform:rotate(-8deg);
+}
+.polygone-bleublanc:hover {
+	transform:rotate(8deg);
+}
 #map {
 	height: 333px;
-	width: 500px;
+	width: 50%;
 }

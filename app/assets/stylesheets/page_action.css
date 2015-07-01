@@ -1,0 +1,26 @@
+.page_action{
+	display: block;
+	width: 80%;
+	margin:auto;
+	margin-left: 12%;
+	
+}
+
+.titre_page_action{
+	display:block;
+	text-align: center;
+	margin-top: -8%;
+	margin-bottom: 5%;
+	font-size:1.5em;
+	color: #00518A; 
+}
+
+.texte_page_action{
+	display: block;
+	width: 70%;
+	margin: auto;
+	padding: 8% 7%;
+	font-size: 1.2em;
+}
+
+

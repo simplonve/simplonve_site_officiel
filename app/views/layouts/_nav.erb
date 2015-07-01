@@ -2,11 +2,10 @@
 	<div id="nav-toggle"><div class="burger" ><span></span></div></div>
 	<div class="liens">	<%= link_to 'accueil', root_path, :class => "link_nav" %>
 		<%= link_to 'intervenants', intervenants_path, :class => "link_nav" %>
-		<%= link_to 'réalisations', root_path, :class => "link_nav" %> 
+		<%= link_to 'réalisations', root_path, :class => "link_nav" %>
+		<div class="calltoaction-button-nav">
+			<%= link_to image_tag("logosimplonve_bleublanc.svg", class: "polygone-bleublanc"), home_page_actions_path %>
+			<%= link_to image_tag("logosimplonve_vertblanc.svg", class: "polygone-vertblanc") %>
+		</div>
 	</div>
 </nav>
-
-<script type="text/javascript">document.querySelector( "#nav-toggle" )
-	.addEventListener( "click", function() {
-		this.classList.toggle( "active" );
-	});</script>

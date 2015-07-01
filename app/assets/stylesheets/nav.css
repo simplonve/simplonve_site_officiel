@@ -9,10 +9,6 @@
 	z-index: 9999;
 }
 
-.layout_nav:hover{
-	margin:0;
-}
-
 .link_nav {
 	text-decoration: none;
 	color: white;
@@ -43,11 +39,11 @@
 	margin-right: 10%;
 	margin-left: 25%;
 }
-#nav-toggle { position: relative; 
+#nav-toggle { position: relative;
 				/*margin-left: 20%; */
 				float: right;
-				top: 2%; 
-				margin-bottom: 20%;			
+				top: 2%;
+				margin-bottom: 20%;
 }
 
 #nav-toggle { cursor: pointer; padding: 10px 33px 16px 0px; }
@@ -62,7 +58,7 @@
   content: '';
 }
 #nav-toggle span:before {
-  top: -10px; 
+  top: -10px;
 }
 #nav-toggle span:after {
   bottom: -10px;

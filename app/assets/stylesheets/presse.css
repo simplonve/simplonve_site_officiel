@@ -1,0 +1,47 @@
+.presse {
+    display: flex;
+    float: left;
+    height: 180px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+    background-color: #F2F2F2;
+}
+
+.titre-presse {
+    height: 40px;
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+    color: #E9050C;
+}
+
+.container-presse {
+    display: flex;
+    float: left;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+.logo-presse {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:center;
+    align-content: space-around;
+    padding: 0 9%;
+}
+
+.francebleu_logo {
+	width: 100px;
+}
+.france3_logo {
+	width: 60px;
+}
+.dauph_logo  {
+	width: 200px;
+}
+

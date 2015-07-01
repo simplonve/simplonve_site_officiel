@@ -17,6 +17,9 @@
 @media screen and (max-width: 768px){
 	.logo{
 		padding: 5%;
+		width:100%;
+		height:auto;
+		margin-top: 2%;
 	}
 
 	.entete {
@@ -24,15 +27,6 @@
 		width: 100%;
 	}
 
-	.logo {
-		width:100%;
-		height:auto;
-		margin-top: 2%;
-	}
-
-	.titre-logo {
-		
-	}
 	.row{
 		display: flex;
 		flex-direction: column;
@@ -61,14 +55,23 @@
 		height: 200px;
 	}
 	#map {
-		height: 200px;
-		width: 300px;
-		margin-left: 20%;
+		height: 150px;
+		width:380px;
+		margin-left: 10%;
 	}
 	.style_logo{
 		width: 150px;
 		padding-left: 7%;
 		padding-right: 5%;
+	}
+	.francebleu_logo {
+		width: 70px;
+	}
+	.france3_logo {
+		width: 40px;
+	}
+	.dauph_logo  {
+		width: 150px;
 	}
 	.taille_mediaquery {
 		width: 100px;
@@ -79,7 +82,7 @@
 	}
 	.citation {
 		font-size: 1em;
-		padding-left: 5%;
+		padding-left: 12%;
 	}
 	.auteur {
 		font-size: 0.8em;
@@ -89,24 +92,7 @@
 	footer{
 		flex-direction: column;
 	}
-	#twitter{
-		width: 50px;
-		height: 50px;
-	}
-	#twitter:hover{
-		width: 50px;
-		height: 50px;
-	}
-	#facebook{
-		width: 50px;
-		height: 50px;
-	}
-	#facebook:hover{
-		width: 50px;
-		height: 50px;
-	}
 }
-
 * {
   margin:0;
   padding:0;
@@ -122,10 +108,14 @@ body{
 	font-family: 'Raleway-Light';
 }
 
+.logo {
+	margin-top: 1%;
+}
+
 .titre-logo {
 	width: 100%;
 	height: auto;
 	text-align: center;
 	font-size: 1.1em;
-	margin-bottom: 2%;
+	margin-bottom: 1%;
 }
