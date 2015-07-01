@@ -5,10 +5,11 @@
     flex-wrap: wrap;
     margin-top: 2%;
     margin-bottom: 2%;
-    background-color: #F2F2F2;
 }
 
 .titre-presse {
+    height: 45px;
+    width: 100%;
     text-align: center;
     color: #E9050C;
 }
