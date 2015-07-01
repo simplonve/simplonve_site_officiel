@@ -64,6 +64,9 @@
 		padding-left: 7%;
 		padding-right: 5%;
 	}
+	.taille_presse{
+    width:100px;
+	}
 	.taille_mediaquery {
 		width: 100px;
 	}
