@@ -1,5 +1,5 @@
 require 'csv'
-
+Citation.destroy_all
 csv_text = File.read('./db/citations.csv')
 csv = CSV.parse(csv_text, :headers => true)
 csv.each do |row|
