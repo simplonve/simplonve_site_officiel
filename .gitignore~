@@ -10,4 +10,3 @@
 !/log/.keep
 /tmp
 /public/assets/
-/app/assets/javascripts/letterer.js
