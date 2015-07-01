@@ -7,3 +7,20 @@
 .dauph_logo  {
 	width: 200px;
 }
+.grayscale{
+	float: left;
+	transition: all 1s;
+	filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+}
+
+.grayscale:hover{
+	filter: grayscale(0);
+    -webkit-filter:  grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter:  grayscale(0);
+    -ms-filter:  grayscale(0);
+}
