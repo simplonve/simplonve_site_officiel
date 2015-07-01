@@ -1,6 +1,13 @@
 .fond-ecran {
 	width: 100%;
-	display: cover;
+}
+.fond-ecran2 {
+	width: 100%;
+	filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
 }
 
 .introduction {
@@ -43,7 +50,6 @@ p{
 	height: 300px;
 	padding-left: 10%;
 }
-
 .polygone-vert {
 
 	width: 20%;
@@ -51,7 +57,6 @@ p{
 	position : absolute;
     z-index : 1;
 }
-
 .polygone-bleu {
 	-webkit-transition:all 0.5s ease-in-out;
 	-moz-transition:all 0.5s ease-in-out;
@@ -67,7 +72,30 @@ p{
 .polygone-bleu:hover {
 	transform:rotate(8deg);
 }
-
+.calltoaction-button-nav {
+	width: 100%;
+	margin-left: 5px;
+	margin-top: 10px;
+	padding: auto;
+}
+.polygone-vertblanc {
+	width: 100%;
+	position : absolute;
+    z-index : 1;
+}
+.polygone-bleublanc {
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+	width: 100%;
+	position : absolute;
+    z-index : 2;
+    transform:rotate(-8deg);
+}
+.polygone-bleublanc:hover {
+	transform:rotate(8deg);
+}
 #map {
 	height: 333px;
 	width: 50%;
