@@ -15,7 +15,6 @@ Rails.application.routes.draw do
   resources :articles do
     resources :comments
   end 
-  mount Ckeditor::Engine => '/ckeditor'
 
 
   #Projet Réservation-Intervenants
