@@ -12,12 +12,19 @@
 	justify-content:space-around;
 	align-items:center;
 	align-content: space-around;
+	padding: 0 9%;
 }
 
 .style_logo {
 	padding-left: 1%;
 	padding-right: 1%;
 }
+	.taille {
+		width: 200px;
+	}
+	.taille_mediaquery{
+		width: 110px;
+	}
 
 .grayscale{
 	float: left;

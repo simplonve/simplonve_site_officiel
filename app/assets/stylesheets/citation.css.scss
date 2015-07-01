@@ -1,12 +1,4 @@
-@font-face {
-  font-family: Roboto;
-  src: font-url('Roboto/Roboto-Thin.eot');
-  src: font-url('Roboto/Roboto-Thin.eot?#iefix')format("embedded-opentype"), 
-       font-url('Roboto/Roboto-Thin.woff') format("woff"),
-       font-url('Roboto/Roboto-Thin.ttf')format("truetype"),
-       font-url('Roboto/Roboto-Thin.svg#Roboto') format("svg");
-  font-weight: normal;
-  font-style: normal; }
+
 
 .zone-citation {
   width: 100%;
@@ -16,13 +8,13 @@
   background-size: 100% auto; }
 
 .citation {
-  font-family: 'Roboto';
-  font-size: 1.4em;
+  font-family: 'Raleway-Light';
+  font-size: 1.1em;
   color: #1b3c57; }
 
 .auteur {
-  font-family: 'Roboto';
-  font-size: 1.2em;
+  font-family: 'Raleway-Light';
+  font-size: 0.9em;
   text-align: right;
   padding: 1% 2% 2% 50%; }
 
@@ -30,8 +22,8 @@
   height: 25%;
   top: 150px;
   width: 50%;
-  min-width: 500px;
-  margin: 50px auto; }
+  margin: 50px auto;
+}
 
 word {
   display: inline-block; }

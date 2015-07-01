@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Site Officiel SimplonVE</title>
+  <title>Simplon.VE</title>
+  <%= favicon_link_tag 'favicon.ico' %>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -9,11 +10,10 @@
 </head>
 <body>
   <%= render "layouts/nav" %>
-  <%= render "home/ecran_acceuil" %>
+  <%= render "home/ecran_accueil" %>
   <div class="main-content">
-  <%= yield %>
+    <%= yield %>
   </div>
-  <%= render "home/financeurs" %>
   <%= render "layouts/footer" %>
 </body>
 </html>

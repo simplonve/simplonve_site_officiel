@@ -14,6 +14,99 @@
  *= require_self
  */
 
+@media screen and (max-width: 768px){
+	.logo{
+		padding: 5%;
+	}
+
+	.entete {
+		height: 150px;
+		width: 100%;
+	}
+
+	.logo {
+		width:100%;
+		height:auto;
+		margin-top: 2%;
+	}
+
+	.titre-logo {
+		
+	}
+	.row{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.intro_simplonve {
+		width: 100%;
+		padding-left: 20%;
+		padding-right: 10%;
+		margin-bottom: 2%;
+	}
+	.introduction{
+		font-size: 1em;
+	}
+	.intro_simploniens {
+		width: 100%;
+		padding-left: 20%;
+		padding-right: 10%;
+		margin-bottom: 5%;
+	}
+
+	.calltoaction-button {
+		width: 100%;
+		padding-left: 30%;
+		padding-right: 10%;
+		height: 200px;
+	}
+	#map {
+		height: 200px;
+		width: 300px;
+		margin-left: 20%;
+	}
+	.style_logo{
+		width: 150px;
+		padding-left: 7%;
+		padding-right: 5%;
+	}
+	.taille_mediaquery {
+		width: 100px;
+	}
+	#mainText {
+		width: 100%;
+		padding: 0 10%;
+	}
+	.citation {
+		font-size: 1em;
+		padding-left: 12%;
+	}
+	.auteur {
+		font-size: 0.8em;
+		width: 100%;
+		padding: 5% 2% 2% 25%;
+	}
+	footer{
+		flex-direction: column;
+	}
+	#twitter{
+		width: 50px;
+		height: 50px;
+	}
+	#twitter:hover{
+		width: 50px;
+		height: 50px;
+	}
+	#facebook{
+		width: 50px;
+		height: 50px;
+	}
+	#facebook:hover{
+		width: 50px;
+		height: 50px;
+	}
+}
+
 * {
   margin:0;
   padding:0;
@@ -23,32 +116,16 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px){
-	.logo{
-		padding: 5%;
-	}
-}
 body{
 	width: 100%;
 	height: 100%;
-}
-
-.entete {
-	height: 150px;
-	width: 100%;
-}
-
-.logo {
-	width:100%;
-	height:auto;
-	margin-top: 2%;
+	font-family: 'Raleway-Light';
 }
 
 .titre-logo {
 	width: 100%;
 	height: auto;
 	text-align: center;
-	font-family: 'Raleway-Light';
 	font-size: 1.1em;
 	margin-bottom: 2%;
 }
