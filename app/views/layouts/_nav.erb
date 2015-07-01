@@ -4,8 +4,8 @@
 		<%= link_to 'intervenants', intervenants_path, :class => "link_nav" %>
 		<%= link_to 'réalisations', root_path, :class => "link_nav" %>
 		<div class="calltoaction-button-nav">
-			<%= image_tag("logosimplonve_bleublanc.svg", class: "polygone-bleublanc") %>
-			<%= image_tag("logosimplonve_vertblanc.svg", class: "polygone-vertblanc") %>
+			<%= link_to image_tag("logosimplonve_bleublanc.svg", class: "polygone-bleublanc"), home_page_actions_path %>
+			<%= link_to image_tag("logosimplonve_vertblanc.svg", class: "polygone-vertblanc") %>
 		</div>
 	</div>
 </nav>
