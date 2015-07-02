@@ -3,11 +3,6 @@
 }
 .fond-ecran2 {
 	width: 100%;
-	filter: grayscale(1);
-    -webkit-filter: grayscale(1);
-    -moz-filter: grayscale(1);
-    -o-filter: grayscale(1);
-    -ms-filter: grayscale(1);
 }
 
 .introduction {
