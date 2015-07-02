@@ -92,6 +92,7 @@ p{
 	transform:rotate(8deg);
 }
 #map {
-	height: 333px;
-	width: 50%;
+	height: 344px;
+	width: 500px;
+	margin: 2% 0;
 }
