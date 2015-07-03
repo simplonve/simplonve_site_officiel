@@ -1,4 +1,16 @@
-<div class="zone-citation">
+<script>
+		function executeQuery() 
+	  	$.ajax({
+		    success: function(data) {
+		      $('#texte').load('home/index #texte')
+		    }
+		  });
+		}
+		$(document).ready(function() {
+		  setInterval(executeQuery, 10000);
+		});
+</script>
+<div id="texte" class="zone-citation">
  	<div id='mainText'>
  		<div class="citation">
  			<q><%= @citation.citation %></q>
@@ -43,8 +55,7 @@
 				}
 			}
 		}
-	</script>
- 	<script>
+
 		var lettersContainer = document.getElementById('mainText'),
 		letters, 
 		delay = 180,
@@ -69,5 +80,4 @@
 			}, delay);
 		}
 	</script>
-<!-- 	<meta http-equiv="Refresh" content="10"> -->
-</div>
+</div>    
