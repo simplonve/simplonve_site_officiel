@@ -1,8 +1,14 @@
 <nav class="layout_nav">
 	<div id="nav-toggle"><div class="burger" ><span></span></div></div>
-	<div class="liens">	<%= link_to 'accueil', root_path, :class => "link_nav" %>
+	<div class="liens">	
+		<%= link_to 'accueil', root_path, :class => "link_nav" %>
 		<%= link_to 'intervenants', intervenants_path, :class => "link_nav" %>
 		<%= link_to 'réalisations', root_path, :class => "link_nav" %>
+		<% if logged_in? %>
+			<%= link_to "Se déconnecter", logout_path, method: "delete", :class => "link_nav" %>
+		<% else %>
+			<%= link_to "Se connecter", login_path, :class => "link_nav" %>
+		<% end %>	
 		<div class="calltoaction-button-nav">
 			<%= image_tag("logosimplonve_bleublanc.svg", class: "polygone-bleublanc") %>
 			<%= image_tag("logosimplonve_vertblanc.svg", class: "polygone-vertblanc") %>

@@ -1,4 +1,8 @@
 <%= image_tag('photo-accueillight.jpg', class: "fond-ecran")%>
+<div class="flash">
+	<% if flash[:success] %>
+  	<%=h flash[:success] %>
+<% end %></div>
 <div class="introduction">
 	<%= render "home/calltoaction" %>
 	<%= render "home/citation" %>  
@@ -6,3 +10,4 @@
 </div>
 <%= image_tag('photo-accueil2light.jpg', class: "fond-ecran2")%>
 <%= render "home/financeurs" %>
+
