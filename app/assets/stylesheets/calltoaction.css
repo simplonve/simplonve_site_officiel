@@ -3,11 +3,6 @@
 }
 .fond-ecran2 {
 	width: 100%;
-	filter: grayscale(1);
-    -webkit-filter: grayscale(1);
-    -moz-filter: grayscale(1);
-    -o-filter: grayscale(1);
-    -ms-filter: grayscale(1);
 }
 
 .introduction {
@@ -48,10 +43,9 @@ p{
 .calltoaction-button {
 	width: 50%;
 	height: 300px;
-	padding-left: 10%;
+	padding-left: 17%;
 }
 .polygone-vert {
-
 	width: 20%;
 	min-width: 200px;
 	position : absolute;
@@ -97,6 +91,7 @@ p{
 	transform:rotate(8deg);
 }
 #map {
-	height: 333px;
-	width: 50%;
+	height: 344px;
+	width: 500px;
+	margin: 2% 0;
 }

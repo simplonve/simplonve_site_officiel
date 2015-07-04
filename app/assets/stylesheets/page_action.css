@@ -2,26 +2,24 @@
 	display: block;
 	width: 80%;
 	margin:auto;
-}
-
-h2{
-	text-align: center;
-	margin: 3%; 
-}
-.prochaine_session{
-	display: block;
-	width: 85%;
-	padding: 8% 7%;
-}
-
-.intervenants_ext{
-
-}
-
-.clients{
-
-}
-
-.dev_ter_ess{
+	margin-left: 12%;
 	
 }
+
+.titre_page_action{
+	display:block;
+	text-align: center;
+	margin-top: -8%;
+	margin-bottom: 5%;
+	font-size:1.5em;
+	color: #00518A; 
+}
+
+.texte_page_action{
+	display: block;
+	width: 70%;
+	margin: auto;
+	padding: 8% 7%;
+	font-size: 1.2em;
+}
+
