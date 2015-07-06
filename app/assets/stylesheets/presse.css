@@ -10,8 +10,10 @@
 .titre-presse {
     width: 100%;
     text-align: center;
-    color: #E9050C;
+    color: #828785; 
+   font-style: italic;
 }
+
 
 .container-presse {
     display: flex;
