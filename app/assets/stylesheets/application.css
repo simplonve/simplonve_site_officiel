@@ -14,7 +14,7 @@
  *= require_self
  */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 760px){
 	.logo{
 		padding: 5%;
 		width:100%;
@@ -97,6 +97,12 @@
 	}
 	.mail {
 	font-size: 0.8em;
+	}
+	.layout_nav{
+		width: 100%;
+		padding-left: 10%;
+		padding-right: 3%;
+		margin: 0 0 0 -90%;
 	}
 }
 * {
