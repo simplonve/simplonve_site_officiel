@@ -17,10 +17,11 @@
 	font-size: 1.2em;
 	line-height: 2.5;
 	margin-top: 10%;
+	text-transform: uppercase;
 }
 
 .link_nav:hover {
-	color: #7D9E41;
+	color: #131619;
 	text-decoration: none;
 }
 
@@ -39,11 +40,11 @@
 	margin-right: 10%;
 	margin-left: 25%;
 }
-#nav-toggle { position: relative;
-				/*margin-left: 20%; */
-				float: right;
-				top: 2%;
-				margin-bottom: 20%;
+#nav-toggle { 
+	position: relative;
+	float: right;
+	top: 2%;
+	margin-bottom: 20%;
 }
 
 #nav-toggle { cursor: pointer; padding: 10px 33px 16px 0px; }
