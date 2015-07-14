@@ -5,7 +5,7 @@ require 'csv'
 Citation.destroy_all
 
 citations_text = File.read('./db/citations.csv')
-citations_ary = CSV.parse(citations, :headers => true)
+citations_ary = CSV.parse(citations_text, :headers => true)
 
 citations_ary.each do |row|
   citation = Citation.new
@@ -18,7 +18,7 @@ end
 #Construire les données de la table Intervenant
 
 intervenant_text = File.read('./db/intervenants.csv')
-intervenants_ary = CSV.parse(intervenants, :headers => true)
+intervenants_ary = CSV.parse(intervenant_text, :headers => true)
 
 intervenants_ary.each do |row|
   intervenant = Calendrier.new
