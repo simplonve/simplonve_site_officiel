@@ -1,10 +1,10 @@
 <script>
-		function executeQuery() 
-	  	$.ajax({
-		    success: function(data) {
-		      $('#texte').load('home/index #texte')
-		    }
-		  });
+		function executeQuery(){ 
+		  	$.ajax({
+			    success: function(data) {
+			      $('#texte').load('home/index #texte')
+			    }
+			  });
 		}
 		$(document).ready(function() {
 		  setInterval(executeQuery, 10000);

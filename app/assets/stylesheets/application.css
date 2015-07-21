@@ -14,114 +14,103 @@
  *= require_self
  */
 
-@media screen and (max-width: 768px){
-	.logo{
-		padding: 5%;
-		width:100%;
-		height:auto;
-		margin-top: 2%;
-	}
+ @media screen and (max-width: 768px){
+ 	.logo{
+ 		padding: 5%;
+ 		width:100%;
+ 		height:auto;
+ 		margin-top: 2%;
+ 	}
 
-	.entete {
-		height: 150px;
-		width: 100%;
-	}
+ 	.entete {
+ 		height: 150px;
+ 		width: 100%;
+ 	}
 
-	.row{
-		display: flex;
-		flex-direction: column;
-		width: 100%;
-	}
-	.intro_simplonve {
-		width: 100%;
-		padding-left: 20%;
-		padding-right: 10%;
-		margin-bottom: 2%;
-	}
-	.introduction{
-		font-size: 1em;
-	}
-	.intro_simploniens {
-		width: 100%;
-		padding-left: 20%;
-		padding-right: 10%;
-		margin-bottom: 5%;
-	}
+ 	.row{
+ 		display: flex;
+ 		flex-direction: column;
+ 		width: 100%;
+ 	}
+ 	.intro_simplonve {
+ 		width: 100%;
+ 		padding-left: 20%;
+ 		padding-right: 10%;
+ 		margin-bottom: 2%;
+ 	}
+ 	.introduction{
+ 		font-size: 1em;
+ 	}
+ 	.intro_simploniens {
+ 		width: 100%;
+ 		padding-left: 20%;
+ 		padding-right: 10%;
+ 		margin-bottom: 5%;
+ 	}
 
-	.calltoaction-button {
-		width: 100%;
-		padding-left: 30%;
-		padding-right: 10%;
-		height: 200px;
-	}
-	#map {
-		height: 150px;
-		width:380px;
-		margin-left: 10%;
-	}
-	.style_logo{
-		width: 150px;
-		padding-left: 7%;
-		padding-right: 5%;
-	}
-	.titre-presse{
-		font-size: 1em;
-	}	
-	.francebleu_logo {
-		width: 50px;
-	}
-	.france3_logo {
-		width: 30px;
-	}
-	.dauph_logo  {
-		width: 130px;
-	}
-	.taille_mediaquery {
-		width: 100px;
-	}
-	#mainText {
-		width: 100%;
-		padding: 0 10%;
-	}
-	.citation {
-		font-size: 1em;
-		padding-left: 12%;
-	}
-	.auteur {
-		font-size: 0.8em;
-		width: 100%;
-		padding: 5% 2% 2% 25%;
-	}
-	footer{
-		flex-direction: column;
-	}
-	.mail {
-	font-size: 0.8em;
-	}
-}
-* {
-  margin:0;
-  padding:0;
-  border: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+ 	.calltoaction-button {
+ 		width: 100%;
+ 		padding-left: 30%;
+ 		padding-right: 10%;
+ 		height: 200px;
+ 	}
+ 	#map {
+ 		height: 150px;
+ 		width:380px;
+ 		margin-left: 10%;
+ 	}
+ 	.style_logo{
+ 		width: 150px;
+ 		padding-left: 7%;
+ 		padding-right: 5%;
+ 	}
+ 	.titre-presse{
+ 		font-size: 1em;
+ 	}	
+ 	.francebleu_logo {
+ 		width: 50px;
+ 	}
+ 	.france3_logo {
+ 		width: 30px;
+ 	}
+ 	.dauph_logo  {
+ 		width: 130px;
+ 	}
+ 	.taille_mediaquery {
+ 		width: 100px;
+ 	}
+ 	#mainText {
+ 		width: 100%;
+ 		padding: 0 10%;
+ 	}
+ 	.citation {
+ 		font-size: 1em;
+ 		padding-left: 12%;
+ 	}
+ 	.auteur {
+ 		font-size: 0.8em;
+ 		width: 100%;
+ 		padding: 5% 2% 2% 25%;
+ 	}
+ 	footer{
+ 		flex-direction: column;
+ 	}
+ 	.mail {
+ 	font-size: 0.8em;
+ 	}
+ }
 
-body{
-	width: 100%;
-	height: 100%;
-	font-family: 'Raleway-Light';
-}
+ * {
+   margin:0;
+   padding:0;
+   border: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+ }
 
-.logo {
-	margin-top: 1%;
-}
-
-.titre-logo {
-	width: 100%;
-	height: auto;
-	text-align: center;
-	font-size: 1.1em;
-	margin-bottom: 1%;
-}
+ body{
+ 	width: 100%;
+ 	height: 100%;
+ 	font-family: 'Raleway-Light';
+ }

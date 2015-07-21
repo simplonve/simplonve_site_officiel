@@ -1,5 +1,15 @@
+<% if logged_in? %>
+    <button class="resa-btn-valid">
+      <%= link_to "Fermer la session", logout_path, method: :delete %>
+    </button> 
+<% else %>
+  <div class="resa-container" onclick="alert('veuillez vous identifiez')"> 
+<% end %>  
+
+
 <div class="resa-container">
-<h1 class="resa-titre text-center">Réservez la date de votre intervention à Simplon.VE</h1>
+
+<h1 class="resa-titre text-center">Contactez nous et réservez votre intervention : contact@simplonve.co</h1>
   <% @month.each do |key,list| %>
     <div class="row">  
           
@@ -52,9 +62,9 @@
                 </div>
             <% elsif b % 7 == 6 %>
                 <div class="resa-jour resa-weekend">
-                  <a href="/intervenants/reservation/<%= l %>-<%= key %>">
-                    <%= c %>
-                  </a>
+                  <a <% if logged_in? %> href="/intervenants/reservation/<%= l %>-<%= key %>" <% end %> >
+                      <%= c %>
+                    </a>
                 </div>
             <% elsif b % 7 == 0 %>
                  <div class="resa-jour resa-weekend">
@@ -62,8 +72,8 @@
                 </div>
             <% else %>
               <div class="resa-jour resa-dispo">
-                <a href="/intervenants/reservation/<%= l %>-<%= key %>">
-                  <%= c %>
+                <a <% if logged_in? %> href="/intervenants/reservation/<%= l %>-<%= key %>" <% end %> >
+                      <%= c %>         
                 </a>
               </div>
             <% end %>
@@ -99,11 +109,10 @@
                 <%= i.prenom %>
               </div>
               <div class="resa-contact">
-                Email: <%= i.email %>, 
-                Tel: <%= i.telephone %>
-              </div>
-              <div class="resa-desc">
                 <%= i.description %>
+                <% if logged_in? %>
+                  <br>Tel: <%= i.telephone %>
+                <% end %>
               </div>
             </div>
           <% end %>
