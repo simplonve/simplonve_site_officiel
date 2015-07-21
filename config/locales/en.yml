@@ -2,7 +2,7 @@ en:
 # page HOME
   slogan: Fabrique sociale de codeurs
   calltoaction: |
-    <p>A l'ombre des châtaigniers ardéchoix, dans un environnement idéal pour la créativité et l'innovation, Simplon.VE a ouvert ses portes en avril 2015 dans le Val d'Eyrieux.
+    <p>A l'ombre des châtaigniers ardéchois, dans un environnement idéal pour la créativité et l'innovation, Simplon.VE a ouvert ses portes en avril 2015 dans le Val d'Eyrieux.
     Cette fabrique sociale et solidaire de codeurs permet de <b>découvrir en 6 mois les technologies web et mobile</b> et accompagne chaque étudiants vers l'insertion profesionnelle.
     Simplon.VE contribue activement à mettre en place des compétences en programmation logicielle.</p>
     <p>Ce véritable <b>laboratoire d'innovation pédagogique</b> est d'abord basé sur le partage des savoir-faire et des savoir-être. 
@@ -12,8 +12,8 @@ en:
     <p>Au cours de leur formation, ils découvrent les métiers de la <b>programmation web et mobile</b> par la pratique selon une <b>méthode de travail agile</b>.</p>
     <p>Chacun avance à son rythme, explorant les diverses technologies (Ruby on Rails, Python.Flask, NodeJS, etc.), afin d'atteindre l'objectif de la formation : l'intégration professionnelle.</p>
     <p>A coté de ces programmeurs en devenir s'adosse un cursus de 'référent numérique'. Ce parcours permet une formation plus large aux outils numériques : intégration wordpress, réseaux sociaux, stratégie marketing digital, graphisme ; ces 'couteaux suisses' numériques maitrisent diverses outils logiciels adaptés au marché de l'emploi actuel.</p>
-    
-# page PLANETE
+    <p>Quelques chiffres clés à propos des simploniens: <b>84%</b> sont des demandeurs d'emplois et <b>75%</b> ont un diplôme inférieur ou égal à <b>Bac+2</b>. L' âge moyen est de <b>37 ans</b> et <b>15%</b> ont plus de <b>45 ans</b>.
+    Ont compte <b>25%</b> de femmes. <b>80%</b> des stagiaires sont originaire de l'Ardèche. Le stage compte <b>900 heures</b> et les stagaires apprennent plusieurs languages différents.
   planete_origine_titre: Des origines à la mise en situation professionnelle
   planete_origine: |
     <p>Début avril 2015, la communauté de communes Val'Eyrieux et Simplon.co ont lancé conjointement un projet innovant de formation au numérique sous le nom de Simplon.VE, basé au sein du pôle économique Pôleyrieux dans la ville du Cheylard.</p>
