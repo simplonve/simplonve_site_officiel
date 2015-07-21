@@ -1,56 +1,39 @@
-<div class="visual">
-  <img src="/images/fondmaster.png" alt="fondmaster" />
-</div>
-<div class="bandeau">
-  <div class="logocinema">
-    <img src="/images/bannierefestivalcinemablanc.svg" class="img-responsive" width="100%" alt="logofest" title="logofest" />
-  </div>
-</div>
-  <div class="label">
+<div class="label">
     <%= flash[:notice] %>
-  </div>
+</div>
 <div class="nav_blog">
-  <ul>
+<ul>
     <li><%= link_to "nouvel article", new_article_path %></li>
-    <li><a href="http://festivalducinemalibre.com" target="_blank">fcl</a></li>
-  </ul>
+</ul>
 </div>
 <article class="container_blog">
-  <div class="catch">
-      <div class="catchnumber">3ème édition
+<% @articles.reverse.each do |article| %>
+  <div class="article">
+    <div class="info_blog">
+      <div class="day">
+        <%= article.day %>
       </div>
-      <div class="catchplace">HAMBOURG
-      </div>
-      <div class="catchdate">28-30 Août 2015
-      </div>
-    </div>
-  <% @articles.reverse.each do |article| %>
-    <div class="article">
-      <div class="info_blog">
-        <div class="day">
-            <%= article.day %>
+      <div class="date_blog">
+        <div class="month">
+          <%= article.month %>
         </div>
-        <div class="date_blog">
-          <div class="month">
-              <%= article.month %>
-          </div>
-           <div class="year">
-              <%= article.year %>
-          </div>
-        </div>             
-        <h1 class="title">
-          <%= article.title %>
-        </h1>
-      </div> 
-      <h3 class="subtitle">
-        <%= article.subtitle %>
-      </h3>
-      <div class="content">
-        <%= simple_format article.content %>
-      </div>
-      <div class="button">
-        <%= link_to (image_tag('croix.svg')),article_path(article) %>
-      </div>
+        <div class="year">
+          <%= article.year %>
+        </div>
+      </div>             
+      <h1 class="title">
+        <%= article.title %>
+      </h1>
+    </div> 
+    <h3 class="subtitle">
+      <%= article.subtitle %>
+    </h3>
+    <div class="content">
+      <%= simple_format article.content %>
     </div>
-  <% end %>
+    <div class="button">
+      <%= link_to (image_tag('croix.svg')),article_path(article) %>
+    </div>
+  </div>
+<% end %>
 </article>
