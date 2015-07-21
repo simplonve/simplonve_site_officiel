@@ -2,9 +2,7 @@
     <%= flash[:notice] %>
 </div>
 <div class="nav_blog">
-<ul>
-    <li><%= link_to "nouvel article", new_article_path %></li>
-</ul>
+  <%= link_to "nouvel article", new_article_path %>
 </div>
 <article class="container_blog">
 <% @articles.reverse.each do |article| %>
@@ -30,9 +28,6 @@
     </h3>
     <div class="content">
       <%= simple_format article.content %>
-    </div>
-    <div class="button">
-      <%= link_to (image_tag('croix.svg')),article_path(article) %>
     </div>
   </div>
 <% end %>
