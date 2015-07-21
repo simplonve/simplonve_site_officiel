@@ -12,9 +12,7 @@ Rails.application.routes.draw do
   get 'home/page_actions' =>'home#page_actions'
 
   #Projet Blog
-  resources :articles do
-    resources :comments
-  end 
+  resources :articles
 
 
   #Projet Réservation-Intervenants

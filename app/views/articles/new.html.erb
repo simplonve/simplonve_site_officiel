@@ -12,12 +12,12 @@
   <% end %>
 	<%= form_for :article, url: articles_path  do |f| %>
     <p class="selecteur">
-    <%= f.label :"jour" %>
-    <%= f.select :day, (1..31).to_a %>
-    <%= f.label :mois %>
-    <%= f.select :month, ["janv", "févr", "mars", "avr", "mai", "juin", "juil", "août", "sept", "oct", "nov", "déc"] %>
-    <%= f.label :année %>
-    <%= f.select :year, ["2015", "2016", "2017"] %>
+      <%= f.label :"jour" %>
+      <%= f.select :day, (1..31).to_a %>
+      <%= f.label :mois %>
+      <%= f.select :month, ["janv", "févr", "mars", "avr", "mai", "juin", "juil", "août", "sept", "oct", "nov", "déc"] %>
+      <%= f.label :année %>
+      <%= f.select :year, ["2015", "2016", "2017"] %>
     </p> 
     <p>
     <%= f.label :titre %><br>

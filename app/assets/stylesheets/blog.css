@@ -71,3 +71,23 @@
 	margin-top: 5%;
 	text-align: left;
 }
+.form{
+	width: 65%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 1%;
+	padding: 2%;	
+}
+.selecteur{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 3%;
+}
+
+.selecteur > select {
+	margin-left: 2%;
+	margin-right: 2%;
+}
