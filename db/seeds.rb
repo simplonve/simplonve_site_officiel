@@ -28,3 +28,4 @@ intervenants_ary.each do |row|
   intervenant.date =        row.to_hash["date"] 
   intervenant.save
 end
+
