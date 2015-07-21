@@ -20,34 +20,7 @@
 	</p>
 	<div class="content">
 	  <%= simple_format @article.content%>
-	</div>
-	<div class="comment_form">
-	<h5>Ajouter un commentaire : </h5>
-		<%= form_for ([@article, @article.comments.build]) do |f| %>
-			<p>
-			    <%= f.label :nom %><br>
-			    <%= f.text_field :name %>
-			</p>
-			<p>
-			    <%= f.label :commentaire %><br>
-			    <%= f.text_area :body, :class => "text_field" %>
-			</p>
-			<%= f.submit 'Envoyer le commentaire', class: "submit_btn" %>
-		<% end %>
-	</div>
-	<table class="comment_list">	 
-		<th>Commentaires</th>
-		<tr>
-			<td>Nom</td>
-			<td>Commentaires</td>
-		</tr>
-		<% @article.comments.each do |comment| %>
-			<tr>
-				<td class="nom_blog"><%= comment.name %></td>
-				<td ><%= comment.body %></td>
-			</tr>
-		<% end %>
-	</table>	
+	</div>	
     <%= link_to (image_tag('home.png')), articles_path, :class => "home" %>
     <div class='icon_blog'>
 		<%= link_to (image_tag('edit.png')), edit_article_path(@article) %>
