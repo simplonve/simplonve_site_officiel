@@ -1,9 +1,11 @@
 <div class="label">
     <%= flash[:notice] %>
 </div>
-<div class="nav_blog">
-  <%= link_to "nouvel article", new_article_path %>
-</div>
+<% if logged_in? %>
+  <div class="nav_blog">
+    <%= link_to "nouvel article", new_article_path %>
+  </div>
+<% end %>
 <article class="container_blog">
 <% @articles.reverse.each do |article| %>
   <div class="article">
