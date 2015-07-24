@@ -8,7 +8,7 @@ Déploiement Heroku
 
 ## Plan du site
 
-  - acceuil (intro partenaire)
+  - accueil (intro partenaire)
   - la planète simplon
   - les intervenants extérieurs
 
