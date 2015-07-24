@@ -1,6 +1,8 @@
 <div class="entete">
 	<div class="logo">
-		<%= image_tag("logosimplonveseul.svg", class: "logo_simplonve") %>
+		<%= link_to root_path, :class => "link_nav" do %>
+      <%= image_tag("logosimplonveseul.svg", class: "logo_simplonve") %>
+    <% end %>
 	</div>
 	<div class="titre-logo">
 		<%= t('slogan') %>
