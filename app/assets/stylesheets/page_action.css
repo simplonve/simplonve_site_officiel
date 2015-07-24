@@ -31,6 +31,7 @@
 	border: solid 3px #337AB7;
 	padding: 20px;
 	color: #337AB7;
+	text-decoration: none;
 }
 
 .button_action:hover {
