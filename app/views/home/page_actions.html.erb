@@ -4,23 +4,24 @@
 		<h2 class="titre_page_action">
 			<%= t('planete_origine_titre').html_safe %>
 		</h2>
-  	<%= t('planete_origine').html_safe %>
+		<%= t('planete_origine').html_safe %>
 	</div>
 	<div class="texte_page_action">
 		<h2 class="titre_page_action"> 
-		  <%= t('planete_intervenants_titre').html_safe %>
+			<%= t('planete_intervenants_titre').html_safe %>
 		</h2>
-	  <%= t('planete_intervenants').html_safe %>
-	  <%= link_to "Beaucoup sont déjà passés, il ne manque plus que vous !", intervenants_path %>
+		<%= t('planete_intervenants').html_safe %>
+		<br>
+		<%= link_to "Beaucoup sont déjà passés, il ne manque plus que vous !", intervenants_path, class: "button_action" %>
 	</div>
 
 	<div class="texte_page_action">
 		<h2 class="titre_page_action">
 			<%= t('planete_besoin_titre').html_safe %>
 		</h2>
-  	<%= t('planete_besoin').html_safe %>
+		<%= t('planete_besoin').html_safe %>
 	</div>
-		
+
 	<div class="texte_page_action">
 		<h2 class="titre_page_action">
 			<%= t('planete_ess_titre').html_safe %>
@@ -60,7 +61,7 @@
 			<%= image_tag("logos/angular-icon.svg", class: "grayscale style_logo taille2") %>
 			
 		</div>
-		<div class="logo logo3">
+		<div class="logo">
 			<%= image_tag("logos/git.svg", class: "grayscale style_logo taille2") %>
 			<%= image_tag("logos/nginx.svg", class: "grayscale style_logo taille2") %>
 		</div>
