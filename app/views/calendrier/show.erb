@@ -1,124 +1,120 @@
 <% if logged_in? %>
-    <button class="resa-btn-valid">
-      <%= link_to "Fermer la session", logout_path, method: :delete %>
-    </button> 
+  <button class="resa-btn-valid">
+    <%= link_to "Fermer la session", logout_path, method: :delete %>
+  </button> 
 <% else %>
-  <div class="resa-container" onclick="alert('veuillez vous identifiez')"> 
-<% end %>  
+<div class="resa-container" onclick="alert('veuillez vous identifiez')"> 
+  <% end %>  
+  <div class="resa-container">
+    <h1 class="resa-titre text-center">Contactez nous et réservez votre intervention : contact@simplonve.co</h1>
+    <% @month.each do |key,list| %>
+      <div class="row">  
+        <div class="resa-nom_mois">
+          <%= list[0] %>
+        </div>
 
+        <div class="resa-calendrier">
+          <div class="resa-mois">
 
-<div class="resa-container">
+            <% a = 1; b = 1; c = 1 %>
 
-<h1 class="resa-titre text-center">Contactez nous et réservez votre intervention : contact@simplonve.co</h1>
-  <% @month.each do |key,list| %>
-    <div class="row">  
-          
-      <div class="resa-nom_mois">
-        <%= list[0] %>
-      </div>
-      
-      <div class="resa-calendrier">
-        <div class="resa-mois">
-    
-          <% a = 1; b = 1; c = 1 %>
-
-          <div class="resa-nom_jour">
-            <% @day.each do |day| %>
+            <div class="resa-nom_jour">
+              <% @day.each do |day| %>
               <div class="resa-jour">
                 <%= day %>
               </div>
-            <% end %>
-          </div>
-
-          <% while a < list[3] %>
-            <% if b == 1 %>
-              <div class="resa-semaine">
-            <% end %>
-            <div class="resa-jour">
+              <% end %>
             </div>
-            <% a += 1; b += 1 %>
-          <% end %>
 
-      
-          <% while c <= list[2] %>
-            
-            <% if b == 1 || b % 7 == 1 %>
+            <% while a < list[3] %>
+            <% if b == 1 %>
+            <div class="resa-semaine">
+              <% end %>
+              <div class="resa-jour">
+              </div>
+              <% a += 1; b += 1 %>
+              <% end %>
+
+
+              <% while c <= list[2] %>
+
+              <% if b == 1 || b % 7 == 1 %>
               <div class="resa-semaine">
-            <% end %>
-        
-            <% l = sprintf '%02d', c %>
-            <% @date = [] %>
-            <% @intervenant.each do |idate| %>
+                <% end %>
+
+                <% l = sprintf '%02d', c %>
+                <% @date = [] %>
+                <% @intervenant.each do |idate| %>
                 <% @date << idate.date.strftime("%d-%m") %>
-            <% end %>
-            
-            <% if @date.include?("#{l}-#{key}") %>
+                <% end %>
+
+                <% if @date.include?("#{l}-#{key}") %>
                 <div class="resa-jour resa-indispo">
                   <%= c %>
                 </div>
-            <% elsif key == "08" && c < 17 %>
+                <% elsif key == "08" && c < 17 %>
                 <div class="resa-jour resa-weekend">
                   <%= c %>
                 </div>
-            <% elsif b % 7 == 6 %>
+                <% elsif b % 7 == 6 %>
                 <div class="resa-jour resa-weekend">
                   <a <% if logged_in? %> href="/intervenants/reservation/<%= l %>-<%= key %>" <% end %> >
-                      <%= c %>
-                    </a>
+                    <%= c %>
+                  </a>
                 </div>
-            <% elsif b % 7 == 0 %>
-                 <div class="resa-jour resa-weekend">
+                <% elsif b % 7 == 0 %>
+                <div class="resa-jour resa-weekend">
                   <%= c %>
                 </div>
-            <% else %>
-              <div class="resa-jour resa-dispo">
-                <a <% if logged_in? %> href="/intervenants/reservation/<%= l %>-<%= key %>" <% end %> >
-                      <%= c %>         
-                </a>
-              </div>
-            <% end %>
-            
-            <% if b % 7 == 0 %>
-              </div>
-            <% end %>
-            
-            <% b += 1; c += 1 %>
-          
-          <% end %>
+                <% else %>
+                <div class="resa-jour resa-dispo">
+                  <a <% if logged_in? %> href="/intervenants/reservation/<%= l %>-<%= key %>" <% end %> >
+                    <%= c %>         
+                  </a>
+                </div>
+                <% end %>
 
-          <% while b % 7 != 1 %>
-            <div class="resa-jour">
-              
+                <% if b % 7 == 0 %>
+              </div>
+              <% end %>
+
+              <% b += 1; c += 1 %>
+
+              <% end %>
+
+              <% while b % 7 != 1 %>
+              <div class="resa-jour">
+
+              </div>
+              <% b += 1 %>
+              <% end %>
+
             </div>
-            <% b += 1 %>
-          <% end %>
-    
           </div>
         </div>
-      </div>
 
-      <div class="resa-texte">
-        <% @intervenant.each do |i| %>
+        <div class="resa-texte">
+          <% @intervenant.each do |i| %>
           <% if i.date.strftime("%B") == list[1] %>
-            <div class="resa-info">
-              <div class="resa-date">
-                <%= i.date.strftime("%e %B %Y").gsub(list[1], list[0]) %>: 
-              </div>
-              <div class="resa-nom">
-                <%= i.nom %>
-                <%= i.prenom %>
-              </div>
-              <div class="resa-contact">
-                <%= i.description %>
-                <% if logged_in? %>
-                  <br>Tel: <%= i.telephone %>
-                <% end %>
-              </div>
+          <div class="resa-info">
+            <div class="resa-date">
+              <%= i.date.strftime("%e %B %Y").gsub(list[1], list[0]) %>: 
             </div>
+            <div class="resa-nom">
+              <%= i.nom %>
+              <%= i.prenom %>
+            </div>
+            <div class="resa-contact">
+              <%= i.description %>
+              <% if logged_in? %>
+              <br>Tel: <%= i.telephone %>
+              <% end %>
+            </div>
+          </div>
           <% end %>
-        <% end %>
-      </div>
+          <% end %>
+        </div>
 
-    </div>
-  <% end %>
-</div>
+      </div>
+    <% end %>
+  </div>
