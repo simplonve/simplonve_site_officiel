@@ -2,7 +2,7 @@ en:
 # page HOME
   slogan: Fabrique sociale de codeurs
   calltoaction: |
-    <p>A l'ombre des châtaigniers ardéchois, dans un environnement idéal pour la créativité et l'innovation, Simplon.VE a ouvert ses portes en avril 2015 dans le Val d'Eyrieux.
+    <p>A l'ombre des châtaigniers ardéchois, dans un environnement idéal pour la créativité et l'innovation, Simplon.VE a ouvert ses portes en avril 2015 sur le territoire de Val'Eyrieux.
     Cette fabrique sociale et solidaire de codeurs permet de <b>découvrir en 6 mois les technologies web et mobile</b> et accompagne chaque étudiant vers l'insertion professionnelle.
     Simplon.VE contribue activement à mettre en place des compétences en programmation logicielle.</p>
     <p>Ce véritable <b>laboratoire d'innovation pédagogique</b> est d'abord basé sur le partage des savoir-faire et des savoir-être. 
@@ -13,7 +13,7 @@ en:
     <p>Chacun avance à son rythme, explorant les diverses technologies (Ruby on Rails, Python.Flask, NodeJS, etc.), afin d'atteindre l'objectif de la formation : l'intégration professionnelle.</p>
     <p>A coté de ces programmeurs en devenir s'adosse un cursus de 'référent numérique'. Ce parcours permet une formation plus large aux outils numériques : intégration wordpress, réseaux sociaux, stratégie marketing digital, graphisme ; ces 'couteaux suisses' numériques maitrisent divers outils logiciels adaptés au marché de l'emploi actuel.</p>
     <p>Quelques chiffres clés à propos des simploniens: <b>84%</b> sont des demandeurs d'emplois et <b>75%</b> ont un diplôme inférieur ou égal à <b>Bac+2</b>. L' âge moyen est de <b>37 ans</b> et <b>15%</b> ont plus de <b>45 ans</b>.
-    On compte <b>25%</b> de femme. <b>80%</b> des stagiaires sont originaire de l'Ardèche. Le stage compte <b>900 heures</b> et les stagaires apprennent plusieurs languages différents.
+    On compte <b>25%</b> de femmes. <b>80%</b> des étudiants sont originaire de l'Ardèche. Le stage compte <b>900 heures</b> et les stagaires apprennent plusieurs languages différents.
   planete_origine_titre: Simplon.VE - Kézako ?
   planete_origine: |
     <p>Début avril 2015, la communauté de communes Val'Eyrieux et Simplon.co ont lancé conjointement un projet innovant de formation au numérique sous le nom de Simplon.VE, basé au sein du pôle économique Pôleyrieux dans la ville du Cheylard.</p>
@@ -24,7 +24,7 @@ en:
     <p>Simplon.VE est ouverte à toutes personnes qui souhaite découvrir ou intervenir dans la formation !
     Développeurs, designers, que vous soyez freelance ou salarié, 
     venez échanger avec nous sur vos connaissances et vos expériences.</p>
-    <p>Créer du lien, forger son réseau, développer l'entraide collective. Venez faire partie de l'anventure Simplon.VE</p>
+    <p>Créer du lien, forger son réseau, développer l'entraide collective. Venez faire partie de l'aventure Simplon.VE</p>
   planete_besoin_titre: Envie de visibilité en ligne ? 
   planete_besoin: |
     <p></p>
@@ -39,5 +39,5 @@ en:
     <p>Certains projets ESS ont déjà vu le jour comme par exemple la mise en relation de producteurs et de consommateurs, des ateliers découverte du numérique et robotique pour les enfants, etc.</p>
   planete_tech_titre: Pour les plus techos d'entre-vous
   planete_tech : |
-    <p>Nous utlisons les dernières technologies en matière de développement web tout en se réclamant de la philosophie des artisans développeurs (software craftmanship).</p>
+    <p>Nous utilisons les dernières technologies en matière de développement web tout en se réclamant de la philosophie des artisans développeurs (software craftmanship).</p>
     <p>Basé sur un environnement Linux, nous nous formons d'abord à la programmation logicielle orienté objet : depuis la gestion de bases de données (SQL et NoSQL) à l'interface utilisateur type mobile first (HTML5, CSS3, Jquery, SVG) en passant par les serveurs d'applications modernes (NodeJS, Ruby on Rails, Laravel) et les moteurs de rendu graphique (Angular, React)</p>
