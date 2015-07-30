@@ -13,21 +13,20 @@ en:
     <p>Chacun avance à son rythme, explorant les diverses technologies (Ruby on Rails, Python.Flask, NodeJS, etc.), afin d'atteindre l'objectif de la formation : l'intégration professionnelle.</p>
     <p>A coté de ces programmeurs en devenir s'adosse un cursus de 'référent numérique'. Ce parcours permet une formation plus large aux outils numériques : intégration wordpress, réseaux sociaux, stratégie marketing digital, graphisme ; ces 'couteaux suisses' numériques maitrisent divers outils logiciels adaptés au marché de l'emploi actuel.</p>
     <p>Quelques chiffres clés à propos des simploniens: <b>84%</b> sont des demandeurs d'emplois et <b>75%</b> ont un diplôme inférieur ou égal à <b>Bac+2</b>. L' âge moyen est de <b>37 ans</b> et <b>15%</b> ont plus de <b>45 ans</b>.
-    On compte <b>25%</b> de femmes. <b>80%</b> des étudiants sont originaire de l'Ardèche. Le stage compte <b>840 heures</b> et les étudiants apprennent plusieurs languages différents.
+    On compte <b>25%</b> de femmes. <b>80%</b> des étudiants sont originaires de l'Ardèche. Le stage compte <b>840 heures</b> et les étudiants apprennent plusieurs languages différents.
   planete_origine_titre: Simplon.VE - Kézako ?
   planete_origine: |
     <p>Début avril 2015, la communauté de communes Val'Eyrieux et Simplon.co ont lancé conjointement un projet innovant de formation au numérique sous le nom de Simplon.VE, basé au sein du pôle économique Pôleyrieux dans la ville du Cheylard.</p>
-    <p>Les 20 personnes de la première promotion affutent leurs compétences de développeur web (intégration, algorithmie, production logicielle, controle de version). Ces compétences sont développé sous forme de projets web professionnels à destination des entreprises, des associations et des collectivités locales.</p>
+    <p>Les 20 personnes de la première promotion affutent leurs compétences de développeur web (intégration, algorithmie, production logicielle, controle de version). Ces compétences sont développées sous forme de projets web professionnels à destination des entreprises, des associations et des collectivités locales.</p>
     <p>Les débouchés de cette formation sont variés : du créateur de site vitrine intégré au développeur salarié ou indépendant ou encore en tant que 'référent numérique' : un couteau suisse du digital capable d'assurer tous les besoins de marketing en ligne (réseaux sociaux).</p>
   planete_intervenants_titre: "Tout comme nous, vous êtes ouverts et curieux ? Passez nous voir !"
   planete_intervenants: |
-    <p>Simplon.VE est ouvert à toutes personnes qui souhaite découvrir ou intervenir dans la formation !
+    <p>Simplon.VE est ouvert à toute personne qui souhaite découvrir ou intervenir dans la formation !
     Développeurs, designers, que vous soyez freelance ou salarié, 
     venez échanger avec nous sur vos connaissances et vos expériences.</p>
     <p>Créer du lien, forger son réseau, développer l'entraide collective. Venez faire partie de l'aventure Simplon.VE</p>
   planete_besoin_titre: Envie de visibilité en ligne ? 
   planete_besoin: |
-    <p></p>
     <p>Un projet numérique dans les cartons ? Contactez-nous par email ou les réseaux sociaux. Les étudiants travaillent sur la conception de sites web et d’applications mobiles, indispensables pour assurer une présence numérique.</p>
     <p>Des développeurs professionnels issus de Simplon.VE et Simplon.co à Paris vous accompagneront depuis la conception jusqu'à la mise en ligne de vos projets professionnels.</p>
     <p>Nous utilisons les technologies à la pointe du développement web et mobile à des prix d'école donc très compétitifs.</p>
@@ -35,9 +34,9 @@ en:
   planete_ess_titre: Nous participons au développement local d'une économie sociale et solidaire
   planete_ess: |
     <p>Artisans, commercants, associations, industriels, agriculteurs, collectivités, santé, nous prennons part tous les jours aux activités développées dans la vallée de l'Eyrieux.</p>
-    <p>Grâce aux projets numériques mis en place, nous soutenons activement cette richesse territoriale en mettant particulièrement l'accent sur le développement d'une économie sociale, solidaire locale.</p>
-    <p>Certains projets ESS ont déjà vu le jour comme par exemple la mise en relation de producteurs et de consommateurs, des ateliers découverte du numérique et robotique pour les enfants, etc.</p>
+    <p>Grâce aux projets numériques mis en place, nous soutenons activement cette richesse territoriale en mettant particulièrement l'accent sur le développement d'une économie sociale, solidaire, locale.</p>
+    <p>Certains projets ESS ont déjà vu le jour comme par exemple la mise en relation de producteurs et de consommateurs, des ateliers découverte du numérique pour les enfants, etc.</p>
   planete_tech_titre: Pour les plus techos d'entre-vous
   planete_tech : |
     <p>Nous utilisons les dernières technologies en matière de développement web tout en se réclamant de la philosophie des artisans développeurs (software craftmanship).</p>
-    <p>Basé sur un environnement Linux, nous nous formons d'abord à la programmation logicielle orienté objet : depuis la gestion de bases de données (SQL et NoSQL) à l'interface utilisateur type mobile first (HTML5, CSS3, Jquery, SVG) en passant par les serveurs d'applications modernes (NodeJS, Ruby on Rails, Laravel) et les moteurs de rendu graphique (Angular, React)</p>
+    <p>Dans un environnement Linux, nous nous formons d'abord à la programmation orientée objet : depuis la gestion de bases de données (SQL et NoSQL) à l'interface utilisateur type mobile first (HTML5, CSS3, Jquery, SVG) en passant par les serveurs d'applications modernes (NodeJS, Ruby on Rails, Laravel) et les moteurs de rendu graphique (Angular, React)</p>
