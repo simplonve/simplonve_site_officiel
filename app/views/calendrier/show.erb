@@ -3,7 +3,7 @@
     <%= link_to "Fermer la session", logout_path, method: :delete %>
   </button> 
 <% else %>
-<div class="resa-container" onclick="alert('veuillez vous identifiez')"> 
+<div class="resa-container"> 
   <% end %>  
   <div class="resa-container">
     <h1 class="resa-titre text-center">Contactez nous et réservez votre intervention : contact@simplonve.co</h1>
@@ -101,8 +101,8 @@
               <%= i.date.strftime("%e %B %Y").gsub(list[1], list[0]) %>: 
             </div>
             <div class="resa-nom">
-              <%= i.nom %>
               <%= i.prenom %>
+              <%= i.nom %>
             </div>
             <div class="resa-contact">
               <%= i.description %>
