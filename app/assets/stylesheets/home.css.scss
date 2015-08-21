@@ -93,21 +93,47 @@ p{
   height: 180px;
   float: left;
   background-color: rgba(136, 136, 136, 0.1);
-  background-size: 100% auto; }
+  background-size: 100% auto
+}
+
 .citation {
   font-family: 'Raleway-Light';
   font-size: 1.1em;
-  color: #301515; }
+  color: #301515
+}
+
+.container-chiffres-cles {
+  width: 100%;
+  float: left;
+  padding: 9%;
+  background-color: rgba(136, 136, 136, 0.1);
+  background-size: 100% auto;
+  display: flex;
+  justify-content: text-between;
+  .box-chiffre{
+    margin: 2%;
+  }
+  h2{
+    margin: 2% 0
+  }
+  h1{
+    text-align: center
+
+  }
+  p {
+    text-align: center;
+
+  }
+}
 
 .auteur {
   font-family: 'Raleway-Light';
   font-size: 0.9em;
   text-align: right;
-  padding: 1% 2% 2% 50%; }
+  padding: 1% 2% 2% 50%
+}
 
-
-word {
-  display: inline-block; }
+word {display: inline-block}
 
 letter {
   display: inline-block;
