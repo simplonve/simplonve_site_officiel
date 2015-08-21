@@ -1,16 +1,17 @@
 en:
 # page HOME
-  slogan: Fabrique sociale de codeurs
+  slogan: La Fabrique Sociale de Codeurs Ardéchois 
+  slogan2: Une formation intensive au développement web couplée d'un accompagement à l'entreprenariat social
   calltoaction: |
     <p>A l'ombre des châtaigniers ardéchois, dans un environnement idéal pour la créativité et l'innovation, Simplon.VE a ouvert ses portes en avril 2015 sur le territoire de Val'Eyrieux.
     Cette fabrique sociale et solidaire de codeurs permet de <b>découvrir en 6 mois les technologies web et mobile</b> et accompagne chaque étudiant vers l'insertion professionnelle.
     Simplon.VE contribue activement à mettre en place des compétences en programmation logicielle.</p>
     <p>Ce véritable <b>laboratoire d'innovation pédagogique</b> est d'abord basé sur le partage des savoir-faire et des savoir-être. 
-    Une communauté de pratique qui développe d'abord la <b>pensée par soi-même</b> et une adaptabilité à toute épreuve.</p>
+    Une communauté de pratique qui développe la <b>pensée par soi-même</b> et une adaptabilité à toute épreuve.</p>
   simploniens: |
     <p>Issus d'horizons différents, 20 étudiants concourent à <b>développer leurs compétences</b> dans une dynamique d'équipe professionnelle.</p>
-    <p>Au cours de leur formation, ils découvrent  par la pratique les métiers de la <b>programmation web et mobile</b> selon une <b>méthode de travail agile</b>.</p>
-    <p>Chacun avance à son rythme, explorant les diverses technologies (Ruby on Rails, Python.Flask, NodeJS, etc.), afin d'atteindre l'objectif de la formation : l'intégration professionnelle.</p>
+    <p>Au cours de leur formation, ils découvrent par la pratique de projets professionnels les métiers de la <b>programmation web et mobile</b> selon une <b>méthode de travail agile</b>.</p>
+    <p>Chacun avance à son rythme, explorant les diverses technologies (Ruby on Rails, Python.Flask, NodeJS, etc.), afin d'atteindre l'objectif principal de la formation : l'intégration professionnelle.</p>
     <p>A coté de ces programmeurs en devenir s'adosse un cursus de <b>référent numérique</b>. Ce parcours permet une formation plus large aux outils numériques : intégration wordpress, réseaux sociaux, stratégie marketing digital, graphisme ; ces 'couteaux suisses' numériques maitrisent divers outils logiciels adaptés au marché de l'emploi actuel.</p>
   planete_origine_titre: Simplon.VE - Kézako ?
   planete_origine: |
@@ -27,14 +28,14 @@ en:
   planete_besoin: |
     <p>Un projet numérique dans les cartons ? Contactez-nous par email ou les réseaux sociaux. Les étudiants travaillent sur la conception de sites web et d’applications mobiles, indispensables pour assurer une présence numérique.</p>
     <p>Des développeurs professionnels issus de Simplon.VE et Simplon.co à Paris vous accompagneront depuis la conception jusqu'à la mise en ligne de vos projets professionnels.</p>
-    <p>Nous utilisons les technologies à la pointe du développement web et mobile à des prix d'école donc très compétitifs.</p>
+    <p>Nous utilisons les technologies à la pointe du développement web et mobile à des prix d'école très compétitifs.</p>
 
   planete_ess_titre: Nous participons au développement local d'une économie sociale et solidaire
   planete_ess: |
     <p>Artisans, commercants, associations, industriels, agriculteurs, collectivités, santé, nous prennons part tous les jours aux activités développées dans la vallée de l'Eyrieux.</p>
     <p>Grâce aux projets numériques mis en place, nous soutenons activement cette richesse territoriale en mettant particulièrement l'accent sur le développement d'une économie sociale, solidaire, locale.</p>
     <p>Certains projets ESS ont déjà vu le jour comme par exemple la mise en relation de producteurs et de consommateurs, des ateliers découverte du numérique pour les enfants, etc.</p>
-  planete_tech_titre: Pour les plus techos d'entre-vous
+  planete_tech_titre: Pour les plus techs d'entre-vous
   planete_tech : |
     <p>Nous utilisons les dernières technologies en matière de développement web tout en se réclamant de la philosophie des artisans développeurs (software craftmanship).</p>
     <p>Dans un environnement Linux, nous nous formons d'abord à la programmation orientée objet : depuis la gestion de bases de données (SQL et NoSQL) à l'interface utilisateur type mobile first (HTML5, CSS3, Jquery, SVG) en passant par les serveurs d'applications modernes (NodeJS, Ruby on Rails, Laravel) et les moteurs de rendu graphique (Angular, React)</p>
