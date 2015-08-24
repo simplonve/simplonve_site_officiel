@@ -7,7 +7,7 @@
 	height: auto;
 	text-align: center;
 	font-size: 1.1em;
-	margin-bottom: 1%;
+	margin-bottom: 2%;
 }
 
 .fond-ecran, .fond-ecran2 {
@@ -105,22 +105,24 @@ p{
 .container-chiffres-cles {
   width: 100%;
   float: left;
-  padding: 9%;
+  padding-top: 3%;
+  padding: 0 9.5%;
   background-color: rgba(136, 136, 136, 0.1);
   background-size: 100% auto;
   display: flex;
   justify-content: text-between;
   .box-chiffre{
-    margin: 2%;
+    margin: -1% 2%;
   }
   h2{
-    margin: 2% 0
+    margin: 1% 0
   }
   h1{
     text-align: center
 
   }
   p {
+  	padding: 5% 0 15% 0;
     text-align: center;
 
   }
@@ -166,7 +168,7 @@ letter.initial {
 	justify-content:space-around;
 	align-items:center;
 	align-content: space-around;
-	padding: 0 9%;
+	padding: 2% 9%;
 }
 
 .style_logo {
