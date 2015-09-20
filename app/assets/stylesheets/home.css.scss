@@ -4,18 +4,20 @@
 
 .titre-logo {
 	width: 100%;
-	height: auto;
-	text-align: center;
-	font-size: 1.1em;
-	margin-bottom: 2%;
+  height: auto;
+  text-align: center;
+  font-size: 1.1em;
+  margin-bottom: 2%;
 }
 
-.fond-ecran, .fond-ecran2 {
-	width: 100%;
-}
-
-.fond-ecrangp {
-	margin:0;
+.fond-ecran {
+  background: asset-url("photo-accueil2light.jpg") 50% 0 no-repeat fixed; 
+  margin: 0 auto; 
+  width: 100%; 
+	height: 150px;
+  max-width: 1920px; 
+  position: relative; 
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
 .introduction {
