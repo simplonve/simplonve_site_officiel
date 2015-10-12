@@ -1,0 +1,33 @@
+.container{
+  display: flex;
+  padding-left: 5%;  
+}
+
+.single-profile {
+  width:30%;
+  border: 1px solid #DDD;
+  padding: 15px;
+  margin:1%;
+  .titles {padding-bottom: 20px;}
+}
+
+
+.photo{
+  display:flex;
+  padding-left: 5%;  
+  width: 75%;
+}
+
+.tags{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  .tag{
+    width: 100%;
+    border: solid 2px rgb(230,230,230);
+    border-radius: 2px;
+    padding: 3px;
+    margin: 2px;
+    color: rgb(130,130,130);
+  }
+}

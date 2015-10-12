@@ -5,4 +5,7 @@ class HomeController < ApplicationController
 	  	tirage_citation = array_des_id.sample
 	  	@citation = Citation.find(tirage_citation)
 	end
+
+  def promo
+  end
 end
