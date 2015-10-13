@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150630095634) do
+ActiveRecord::Schema.define(version: 20151013132419) do
 
   create_table "articles", force: :cascade do |t|
     t.integer  "day"
@@ -52,12 +52,42 @@ ActiveRecord::Schema.define(version: 20150630095634) do
 
   add_index "comments", ["article_id"], name: "index_comments_on_article_id"
 
+  create_table "ressources", force: :cascade do |t|
+    t.integer  "title"
+    t.string   "desc"
+    t.integer  "url"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "students", force: :cascade do |t|
+    t.string   "name"
+    t.string   "title"
+    t.string   "tag"
+    t.string   "desc"
+    t.string   "photo"
+    t.string   "mail"
+    t.string   "github"
+    t.string   "linkedin"
+    t.string   "twitter"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "users", force: :cascade do |t|
     t.string   "name"
     t.string   "email"
     t.string   "password_digest", null: false
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
+    t.string   "title"
+    t.string   "image"
+    t.string   "tags"
+    t.string   "desc"
+    t.string   "linkedin"
+    t.string   "twitter"
+    t.string   "github"
+    t.boolean  "online"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true
