@@ -1,4 +1,5 @@
 require 'csv'
+require 'json'
 
 #Détruire puis reconstruire les données la table Citation
 
@@ -29,3 +30,19 @@ intervenants_ary.each do |row|
   intervenant.save
 end
 
+parsed_json = JSON.parse(File.read('db/simploniens.json'))
+parsed_json.each do |data|
+  @user = User.new
+  @user.name = data["name"]
+  @user.password = ENV[data["name"].split.first.upcase]
+  @user.title = data["title"]
+  @user.tags = data["tags"]
+  @user.image = data["image"]
+  @user.desc = data["desc"]
+  @user.email = data["email"]
+  @user.linkedin = data["linkedin"]
+  @user.twitter = data["twitter"]
+  @user.github = data["github"]
+  @user.online = false
+  @user.save
+end
