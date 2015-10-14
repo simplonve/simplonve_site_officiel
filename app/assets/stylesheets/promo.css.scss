@@ -1,33 +1,58 @@
 .container{
-  display: flex;
-  padding-left: 5%;  
+  display: block;
+  float: left;
+  width: calc(100% - 50px);
+  margin-left: 50px;
 }
-
-.single-profile {
-  width:30%;
+.profile {
+  display: block;
+  float: left;
+  width:31.3333%;
   border: 1px solid #DDD;
-  padding: 15px;
   margin:1%;
-  .titles {padding-bottom: 20px;}
 }
-
-
-.photo{
-  display:flex;
-  padding-left: 5%;  
-  width: 75%;
+.profile-name {
+  display: block;
+  float: left;
+  width: 100%;
 }
-
-.tags{
+.profile-job {
+  @extend .profile-name;
+}
+.skills {
   display: flex;
   flex-direction: column;
   float: left;
-  .tag{
-    width: 100%;
+  width: 33.3333%;
+
+  .skill {
+    display: block;
+    float: left;
+    width: 90%;
+    margin: 2% auto;
+    padding: 2% 0;
     border: solid 2px rgb(230,230,230);
-    border-radius: 2px;
-    padding: 3px;
-    margin: 2px;
     color: rgb(130,130,130);
   }
+}
+.profile-photo {
+  display: block;
+  float: left;
+  width: 56.6666%;
+  margin: 0 5%;
+  height: 0;
+  padding-top: 66%;
+  background-color: #000;
+}
+.profile-social {
+  display: flex;
+  float: left;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.profile-description {
+  display: block;
+  float: left;
+  width: 100%;
 }
