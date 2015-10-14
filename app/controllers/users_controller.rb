@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+  before_filter :redirect_unlogged_users
+  
   def new
   	@user = User.new
   end
