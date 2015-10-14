@@ -16,6 +16,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'paperclip'
 gem 'therubyracer', platforms: :ruby
 gem 'bcrypt'
+gem 'haml'
 
 #Allow environement variable to be set un a .env file at root
 gem 'dotenv-rails', :groups => [:development, :test]
