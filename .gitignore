@@ -10,4 +10,4 @@
 !/log/.keep
 /tmp
 /public/assets/
-
+.env

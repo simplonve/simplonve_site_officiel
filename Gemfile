@@ -17,6 +17,9 @@ gem 'paperclip'
 gem 'therubyracer', platforms: :ruby
 gem 'bcrypt'
 
+#Allow environement variable to be set un a .env file at root
+gem 'dotenv-rails', :groups => [:development, :test]
+
 group :production do
   # Postgre est le serveur de production herbergé sur Heroku
   gem 'pg'
