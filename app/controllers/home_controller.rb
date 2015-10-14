@@ -7,5 +7,6 @@ class HomeController < ApplicationController
 	end
 
   def promo
+    @simploniens = User.simploniens
   end
 end

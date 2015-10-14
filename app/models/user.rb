@@ -8,7 +8,17 @@ class User < ActiveRecord::Base
 				uniqueness: { case_sensitive: false }
 	has_secure_password
 	validates :password, presence: true
+  
   scope :simploniens, -> {
-    where('online', true)
+    where(:online => true)
   }
+
+  def tags_to_array
+    self.tags.split(",")
+  end
+
+  def image_path
+    first_name = self.name.split.first.downcase
+    "simploniens/#{first_name}.jpg"
+  end
 end
