@@ -1,0 +1,32 @@
+- provide(:title, 'Sign up')
+%h1 Sign up
+.row_user
+  .col-md-6.col-md-offset-3
+    = form_for(@user) do |f|
+      = render 'shared/error_messages'
+      = f.label :name
+      = f.text_field :name, class: 'form-control'
+      = f.label :email
+      = f.email_field :email, class: 'form-control'
+      = f.label :password
+      = f.password_field :password, class: 'form-control'
+      = f.label :password_confirmation, "Confirmation"
+      = f.password_field :password_confirmation, class: 'form-control'
+
+      
+      = f.label :job
+      = f.text_field :title, class: 'form-control'
+      = f.label :tags
+      = f.text_field :tags, class: 'form-control'
+      = f.label :desc
+      = f.text_field :desc, class: 'form-control'
+      = f.label :linkedin
+      = f.text_field :linkedin, class: 'form-control'
+      = f.label :twitter
+      = f.text_field :twitter, class: 'form-control'
+      = f.label :github
+      = f.text_field :github, class: 'form-control'
+      = f.label :online
+      = f.check_box :online, class: 'form-control'
+      
+      = f.submit "Update vite !", class: "btn btn-primary"

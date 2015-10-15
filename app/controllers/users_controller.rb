@@ -4,6 +4,7 @@ class UsersController < ApplicationController
   def new
   	@user = User.new
   end
+
   def create
     @user = User.new(user_params)  
     if @user.save
@@ -12,10 +13,22 @@ class UsersController < ApplicationController
       render 'new'
     end
   end
-  private
 
+  def edit
+    @user = User.find(params[:id])
+  end
+
+  def update
+    @user = current_user
+    if @user.update user_params
+      redirect_to home_promo_path
+    else
+      render 'edit', notice: "#{user_params} n'est pas disponible"
+    end
+  end
+
+  private
     def user_params
-      params.require(:user).permit(:name, :email, :password,
-                                   :password_confirmation)
+      params.require(:user).permit(:id, :name, :email, :password,:password_confirmation)
     end
 end

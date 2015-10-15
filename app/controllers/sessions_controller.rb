@@ -9,7 +9,6 @@ class SessionsController < ApplicationController
       log_in user
       flash[:success] = "ok"
       redirect_to root_path
-      binding.pry
     else
       flash[:danger] = 'Invalid email/password combination' # Not quite right!
       render 'new'
