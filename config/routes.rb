@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   get 'home/page_actions' =>'home#page_actions'
   get 'home/promo' =>'home#promo'
 
+  resource :sessions
   #Projet Blog
   resources :articles do
     resources :comments
