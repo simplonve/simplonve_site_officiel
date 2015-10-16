@@ -1,29 +1,32 @@
-- provide(:title, 'Sign up')
 %h1 Edit
-= link_to "LogOut", sessions_path, method: :delete
 .row_user
-  .col-md-6.col-md-offset-3
-    = form_for(@user) do |f|
-      = render 'shared/error_messages'
-      = f.label :name
-      = f.text_field :name, class: 'form-control'
-      = f.label :email
-      = f.email_field :email, class: 'form-control'
-
-      
-      = f.label :job
-      = f.text_field :title, class: 'form-control'
-      = f.label :compétence
-      = f.text_field :tags, class: 'form-control'
-      = f.label :desc
-      = f.text_field :desc, class: 'form-control'
-      = f.label :linkedin
-      = f.text_field :linkedin, class: 'form-control'
-      = f.label :twitter
-      = f.text_field :twitter, class: 'form-control'
-      = f.label :github
-      = f.text_field :github, class: 'form-control'
-      = f.label :online
-      = f.check_box :online, class: 'form-control'
-      
-      = f.submit "Update vite !", class: "btn btn-primary"
+  %p 
+    Manque d'inspiration ? 
+    =link_to "Observez comment les SimplonMars ont fait", "http://www.simplonmars.eu/nospromos.php" 
+  = form_for(@user) do |f|
+    = render 'shared/error_messages'
+    = f.label :name, class: 'pretty_label'
+    %p Nom + Prénom
+    = f.text_field :name
+    = f.label :email, class: 'pretty_label'
+    %p Votre email pro, rendu public, sur lequel on pourra vous contacter
+    = f.email_field :email       
+    = f.label :job, class: 'pretty_label'
+    %p Le titre du poste auquel vous prétendez (généralement ce que l'on marque en sous-titre d'un CV)
+    = f.text_field :title
+    = f.label :compétence, class: 'pretty_label'
+    %p Attention, séparez vos compténces par des virgules ex: HTML,CSS,Jquery
+    = f.text_field :tags
+    = f.label :desc, class: 'pretty_label'
+    %p Une petite phrase qui vous décris après la formation, sur ce que vous aimeriez faire plus tard
+    = f.text_area :desc
+    = f.label :linkedin, class: 'pretty_label'
+    = f.text_field :linkedin
+    = f.label :twitter, class: 'pretty_label'
+    = f.text_field :twitter
+    = f.label :github, class: 'pretty_label'
+    = f.text_field :github
+    = f.label :online, class: 'pretty_label'
+    = f.check_box :online        
+    = f.submit "Update vite !", class: "btn btn-primary"
+= link_to "LogOut", sessions_path, method: :delete
