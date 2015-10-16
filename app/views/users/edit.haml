@@ -1,5 +1,6 @@
 - provide(:title, 'Sign up')
-%h1 Sign up
+%h1 Edit
+= link_to "LogOut", sessions_path, method: :delete
 .row_user
   .col-md-6.col-md-offset-3
     = form_for(@user) do |f|
@@ -8,15 +9,11 @@
       = f.text_field :name, class: 'form-control'
       = f.label :email
       = f.email_field :email, class: 'form-control'
-      = f.label :password
-      = f.password_field :password, class: 'form-control'
-      = f.label :password_confirmation, "Confirmation"
-      = f.password_field :password_confirmation, class: 'form-control'
 
       
       = f.label :job
       = f.text_field :title, class: 'form-control'
-      = f.label :tags
+      = f.label :compétence
       = f.text_field :tags, class: 'form-control'
       = f.label :desc
       = f.text_field :desc, class: 'form-control'
