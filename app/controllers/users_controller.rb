@@ -1,12 +1,12 @@
 class UsersController < ApplicationController
   before_filter :redirect_unlogged_users
-  
+
   def new
   	@user = User.new
   end
 
   def create
-    @user = User.new(user_params)  
+    @user = User.new(user_params)
     if @user.save
       redirect_to root_path
     else
@@ -29,6 +29,6 @@ class UsersController < ApplicationController
 
   private
     def user_params
-      params.require(:user).permit(:id, :name, :email, :password,:password_confirmation)
+      params.require(:user).permit(:id, :name, :email, :password,:password_confirmation, :title, :tags, :desc, :linkedin, :twitter, :github, :online)
     end
 end

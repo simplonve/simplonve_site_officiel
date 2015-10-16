@@ -52,28 +52,6 @@ ActiveRecord::Schema.define(version: 20151013132419) do
 
   add_index "comments", ["article_id"], name: "index_comments_on_article_id"
 
-  create_table "ressources", force: :cascade do |t|
-    t.integer  "title"
-    t.string   "desc"
-    t.integer  "url"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "students", force: :cascade do |t|
-    t.string   "name"
-    t.string   "title"
-    t.string   "tag"
-    t.string   "desc"
-    t.string   "photo"
-    t.string   "mail"
-    t.string   "github"
-    t.string   "linkedin"
-    t.string   "twitter"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "users", force: :cascade do |t|
     t.string   "name"
     t.string   "email"

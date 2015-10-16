@@ -11,7 +11,7 @@ citations_ary = CSV.parse(citations_text, :headers => true)
 citations_ary.each do |row|
   citation = Citation.new
   citation.citation = row.to_hash["citation"]
-  citation.auteur = row.to_hash["auteur"] 
+  citation.auteur = row.to_hash["auteur"]
   citation.save
 end
 
@@ -24,9 +24,9 @@ intervenants_ary = CSV.parse(intervenant_text, :headers => true)
 intervenants_ary.each do |row|
   intervenant = Calendrier.new
   intervenant.nom =         row.to_hash["nom"]
-  intervenant.prenom =      row.to_hash["prenom"] 
-  intervenant.description = row.to_hash["description"] 
-  intervenant.date =        row.to_hash["date"] 
+  intervenant.prenom =      row.to_hash["prenom"]
+  intervenant.description = row.to_hash["description"]
+  intervenant.date =        row.to_hash["date"]
   intervenant.save
 end
 
@@ -45,4 +45,5 @@ parsed_json.each do |data|
   @user.github = data["github"]
   @user.online = false
   @user.save
+  puts "Bien ajouté " + @user.name
 end

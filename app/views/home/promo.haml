@@ -7,7 +7,8 @@
       .skills
         -simplonien.tags_to_array.each do |tag|
           .skill=tag
-      =image_tag("#{simplonien.image_path}", class: "profile-photo")
+      .profile-photo
+        =image_tag("#{simplonien.image_path}")
       .profile-description=simplonien.desc
       .profile-social
         %i.fa.fa-envelope-o= link_to '', simplonien.email
