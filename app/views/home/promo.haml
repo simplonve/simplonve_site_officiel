@@ -14,7 +14,7 @@
       .profile-description=simplonien.desc
       .profile-social
         -if simplonien.email && simplonien.email != ""
-          = link_to simplonien.email do
+          = mail_to simplonien.email do
             %i.fa.fa-envelope-o
         -if simplonien.linkedin && simplonien.linkedin != ""
           = link_to simplonien.linkedin do
