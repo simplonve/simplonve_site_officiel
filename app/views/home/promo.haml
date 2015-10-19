@@ -13,15 +13,15 @@
           .skill=tag
       .profile-description=simplonien.desc
       .profile-social
-        -if simplonien.email
+        -if simplonien.email && simplonien.email != ""
           = link_to simplonien.email do
             %i.fa.fa-envelope-o
-        -if simplonien.linkedin
+        -if simplonien.linkedin && simplonien.linkedin != ""
           = link_to simplonien.linkedin do
             %i.fa.fa-linkedin
-        -if simplonien.github
+        -if simplonien.github && simplonien.github != ""
           = link_to simplonien.github do
             %i.fa.fa-github
-        -if simplonien.twitter
+        -if simplonien.twitter && simplonien.twitter != ""
           = link_to simplonien.twitter do
             %i.fa.fa-twitter
