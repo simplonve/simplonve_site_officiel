@@ -1,17 +1,25 @@
 %h2 PROMO #1
 .container
   -@simploniens.each do |simplonien|
-    .profile
+    .profile-card
       .profile-name=simplonien.name
       .profile-job=simplonien.title
+      .profile-photo
+        =image_tag("#{simplonien.image_path}")
       .skills
         -simplonien.tags_to_array.each do |tag|
           .skill=tag
-      .profile-photo
-        =image_tag("#{simplonien.image_path}")
       .profile-description=simplonien.desc
       .profile-social
-        %i.fa.fa-envelope-o= link_to '', simplonien.email
-        %i.fa.fa-linkedin= link_to '', simplonien.linkedin
-        %i.fa.fa-github= link_to '', simplonien.github
-        %i.fa.fa-twitter= link_to '', simplonien.twitter
+        -if simplonien.email
+          = link_to simplonien.email do
+            %i.fa.fa-envelope-o
+        -if simplonien.linkedin
+          = link_to simplonien.linkedin do
+            %i.fa.fa-linkedin
+        -if simplonien.github
+          = link_to simplonien.github do
+            %i.fa.fa-github
+        -if simplonien.twitter
+          = link_to simplonien.twitter do
+            %i.fa.fa-twitter
