@@ -1,4 +1,5 @@
 class CalendrierController < ApplicationController
+
 	def show
 		@intervenant = Calendrier.all.order("date")
 		@month = {"06"=>["Juin", "June", 30, 1], "07"=>["Juillet", "July", 31, 3], "08"=>["Août", "August", 31, 6], "09"=>["Septembre", "September", 30, 2], "10"=>["Octobre", "October", 31, 4]}

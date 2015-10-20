@@ -1,0 +1,149 @@
+.container{
+  display: block;
+  float: left;
+  width: calc(100% - 50px);
+  margin-left: 50px;
+
+  hr {
+    display: block;
+    float: left;
+    width: 80%;
+    margin: 0 10%;
+  }
+}
+.profile-card {
+  display: block;
+  position: relative;
+  float: left;
+  width: 25%;
+  border: 1px solid #CCC;
+  margin: 2% 4.1666%;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -25%;
+    left: -25%;
+    width: 150%;
+    height: 0;
+    padding-top: 66%;
+    background-color: rgba(0,81,138,1);
+    transform: rotate(-5deg);
+    z-index: -1;
+  }
+}
+.profile-name {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 2.7778% 0;
+    color: rgba(255,255,255,1);
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
+.profile-job {
+    display: block;
+    float: left;
+    width: 100%;
+    color: rgba(255,255,255,1);
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.profile-photo {
+  display: block;
+  position: relative;
+  float: left;
+  width: 33.3333%;
+  height: 0;
+  padding-top: 33.3333%;
+  margin: 5.5556% 33.3333%;
+  overflow: hidden;
+  border-radius: 100%;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  float: left;
+  width: 100%;
+
+  .skill {
+    display: block;
+    float: left;
+    padding: 0 2%;
+    margin: 4px 2%;
+    border: solid 1px rgba(0,81,138,1);
+    color: rgba(0,81,138,1);
+  }
+}
+.profile-description {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 5.5556% 0;
+    padding: 0 2%;
+    line-height: 1.25em;
+    text-align: left;
+}
+.profile-social {
+  display: flex;
+  float: left;
+  width: 100%;
+  margin: 2.7778% 0;
+  flex-direction: row;
+
+  a{
+    margin: 0 2%;
+    color: rgba(0,155,255,0.66);
+  }
+
+  a:hover {
+    color: rgba(0,155,255,1);
+  }
+}
+.fa-envelope-o {
+  color: rgba(255,0,0,1);
+
+  &:hover {
+    color: rgba(255,0,0,0.66);
+  }
+}
+.fa-linkedin {
+  color: rgba(0,119,181,1);
+
+  &:hover {
+    color: rgba(0,119,181,0.66);
+  }
+}
+.fa-github {
+  color: rgba(51,51,51,1);
+
+  &:hover {
+    color: rgba(51,51,51,0.66);
+  }
+}
+.fa-twitter {
+  color: rgba(85,172,238,1);
+
+  &:hover {
+    color: rgba(85,172,238,0.66);
+  }
+}
+.pretty_label{
+  background-color: #efc308;
+  padding: 2px;
+}

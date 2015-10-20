@@ -1,8 +1,9 @@
 <nav class="layout_nav">
 	<div id="nav-toggle"><div class="burger" ><span></span></div></div>
 	<div class="liens">
-	    <%= link_to 'accueil', root_path, :class => "link_nav" %>
+    <%= link_to 'accueil', root_path, :class => "link_nav" %>
 		<%= link_to 'simplon.ve ?', home_page_actions_path, :class => "link_nav" %>
-		<%= link_to 'intervenants', intervenants_path, :class => "link_nav" %>
+    <%= link_to 'intervenants', intervenants_path, :class => "link_nav" %>
+		<%= link_to("#{current_user.name.split.first.capitalize}", edit_user_path(current_user), :class => "link_nav") if current_user%>
 	</div>
 </nav>
