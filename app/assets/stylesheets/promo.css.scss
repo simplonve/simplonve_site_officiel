@@ -18,12 +18,16 @@
   width: 25%;
   border: 1px solid #CCC;
   margin: 2% 4.1666%;
-  overflow: hidden;
+}
 
+.profile-top-card{
+  overflow: hidden;
+  position: relative;
+  display: block;
   &::before {
     content: '';
     position: absolute;
-    top: -25%;
+    top: -40%;
     left: -25%;
     width: 150%;
     height: 0;
@@ -33,6 +37,7 @@
     z-index: -1;
   }
 }
+
 .profile-name {
     display: block;
     float: left;
