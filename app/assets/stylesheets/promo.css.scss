@@ -20,6 +20,14 @@
   margin: 2% 4.1666%;
   overflow: hidden;
 
+  @media (max-width: 1200px) {
+    width: 40%;
+  };
+  
+  @media (max-width: 650px) {
+    width: 90%;
+  };
+
   &::before {
     content: '';
     position: absolute;
