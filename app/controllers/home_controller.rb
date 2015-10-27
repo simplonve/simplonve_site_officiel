@@ -10,4 +10,8 @@ class HomeController < ApplicationController
   def promo
     @simploniens = User.simploniens
   end
+
+  def projets
+    @images_projet = Dir.glob("app/assets/images/projets/*")
+  end
 end

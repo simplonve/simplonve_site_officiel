@@ -1,3 +1,6 @@
+.padding-down{
+  padding-top: 3em
+}
 .container{
   display: block;
   float: left;
@@ -33,6 +36,7 @@
     position: absolute;
     top: -25%;
     left: -25%;
+    top: -25%;
     width: 150%;
     height: 0;
     padding-top: 66%;
@@ -40,6 +44,25 @@
     transform: rotate(-5deg);
     z-index: -1;
   }
+}
+.container-projet{
+  margin-left: 25%;
+}
+.project-card {
+  display: block;
+  position: relative;
+  float: left;
+  width: 60%;
+  border: 1px solid #CCC;
+  margin: 2% 4.1666%;
+  overflow: hidden;
+  img{
+    width: 100%;
+  }
+
+  @media (max-width: 1400px) {
+    width: 90%;
+  };
 }
 .profile-name {
     display: block;

@@ -1,0 +1,7 @@
+.fond-ecran{"data-speed" => "3", "data-type" => "background"}
+%h2.padding-down Les projets codés par les Simploniens
+.container-projet
+  - @images_projet.each_with_index do |image, i|
+    -if i % 3 == 0
+      %hr
+    .project-card= image_tag "projets/#{image.split('/').last}"
