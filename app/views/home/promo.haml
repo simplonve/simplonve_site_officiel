@@ -5,10 +5,11 @@
     -if i % 3 == 0
       %hr
     .profile-card
-      .profile-name=simplonien.name
-      .profile-job=simplonien.title
-      .profile-photo
-        =image_tag("#{simplonien.image_path}")
+      .profile-top-card
+        .profile-name=simplonien.name
+        .profile-job=simplonien.title
+        .profile-photo
+          =image_tag("#{simplonien.image_path}")
       .skills
         -simplonien.tags_to_array.each do |tag|
           .skill=tag

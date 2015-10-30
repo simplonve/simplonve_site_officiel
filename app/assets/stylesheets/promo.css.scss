@@ -21,12 +21,18 @@
   width: 25%;
   border: 1px solid #CCC;
   margin: 2% 4.1666%;
+}
+
+
+.profile-top-card{
   overflow: hidden;
+  position: relative;
+  display: block;
 
   @media (max-width: 1200px) {
     width: 40%;
   };
-  
+
   @media (max-width: 650px) {
     width: 90%;
   };
@@ -34,7 +40,7 @@
   &::before {
     content: '';
     position: absolute;
-    top: -25%;
+    top: -40%;
     left: -25%;
     top: -25%;
     width: 150%;
