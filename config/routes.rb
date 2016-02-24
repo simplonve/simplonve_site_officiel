@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get 'home/index' => 'home#index'
   get 'home/page_actions' =>'home#page_actions'
   get 'promo' =>'home#promo'
+  get 'promo2' =>'home#promo2'
   get 'projets' =>'home#projets'
 
   resource :sessions
