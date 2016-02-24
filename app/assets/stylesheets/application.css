@@ -53,6 +53,21 @@
  		padding-right: 10%;
  		height: 200px;
  	}
+
+ 	.promo2 {
+ 		width: 100%;
+ 		padding-left: 20%;
+ 		padding-right: 10%;
+ 		margin-bottom: 2%;
+ 	}
+
+ 	.promo2_image {
+ 		width: 100%;
+ 		padding-left: 20%;
+ 		padding-right: 10%;
+ 		margin-bottom: 2%;
+ 	}
+
  	#map {
  		height: 150px;
  		width:380px;
