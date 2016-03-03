@@ -110,9 +110,9 @@
  	font-size: 0.8em;
  	}
  }
- footer{
- 		flex-direction: column;
- 		height: auto;
+footer{
+	flex-direction: column;
+	height: auto;
 }
  * {
    margin:0;
