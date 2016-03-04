@@ -8,7 +8,7 @@
   margin-left: 50px;
 
   hr {
-    display: block;
+    display: inline-block;
     float: left;
     width: 80%;
     margin: 0 10%;
@@ -16,26 +16,28 @@
 }
 .profile-card {
   display: block;
+  display: inline-block;
   position: relative;
   float: left;
   width: 25%;
   border: 1px solid #CCC;
   margin: 2% 4.1666%;
+  
+  @media (max-width: 1200px) {     width: 40%;   };   
+  @media (max-width: 650px) {     
+     width: 80%;
+     margin: 8% 8%;
+        }; 
 }
 
-
-.profile-top-card{
+.profile-top-card {
   overflow: hidden;
   position: relative;
   display: block;
 
   @media (max-width: 1200px) {
-    width: 40%;
-  };
-
-  @media (max-width: 650px) {
-    width: 90%;
-  };
+    width: 100%;
+  };  
 
   &::before {
     content: '';
